@@ -1,0 +1,697 @@
+DEBUG[11-22|02:32:09] FS scan times                            list=224.323µs set=46.719µs diff=36.77µs
+TRACE[11-22|02:32:09] Handled keystore changes                 time=382.395µs
+TRACE[11-22|02:32:09] Started watching keystore folder         path=/home/pi/blockchainapp/datafull/keystore
+DEBUG[11-22|02:32:09] FS scan times                            list=416.042µs set=65.26µs  diff=45µs
+TRACE[11-22|02:32:09] Handled keystore changes                 time=10.572µs
+INFO [11-22|02:32:09] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-arm/go1.9
+INFO [11-22|02:32:09] Allocated cache and file handles         database=/home/pi/blockchainapp/datafull/geth/chaindata cache=512 handles=1024
+INFO [11-22|02:32:09] Initialised chain configuration          config="{ChainID: 1506754 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-22|02:32:09] Disk storage enabled for ethash caches   dir=/home/pi/blockchainapp/datafull/geth/ethash count=3
+INFO [11-22|02:32:09] Disk storage enabled for ethash DAGs     dir=/home/pi/.ethash                            count=2
+INFO [11-22|02:32:09] Initialising Ethereum protocol           versions="[63 62]" network=6666
+INFO [11-22|02:32:09] Loaded most recent local header          number=6528 hash=48aa8e…2b5b33 td=3381794995
+INFO [11-22|02:32:09] Loaded most recent local full block      number=0    hash=b933b6…90377e td=20
+INFO [11-22|02:32:09] Loaded most recent local fast block      number=7446 hash=0aa002…de46df td=4115079765
+DEBUG[11-22|02:32:09] Reinjecting stale transactions           count=0
+INFO [11-22|02:32:09] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-22|02:32:09] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[11-22|02:32:09] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [11-22|02:32:09] Starting P2P networking 
+DEBUG[11-22|02:32:11] Couldn't add port mapping                proto=udp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+INFO [11-22|02:32:11] UDP listener up                          self=enode://089b4b3892c856e576c48ea7df313464986d278a2ebc66a88e528cacd8396bb0a1265a4974aa6905c735e7605400d54540a23ec4ab90682a2545dfd25ff6a94f@[::]:30303
+DEBUG[11-22|02:32:11] InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|02:32:11] InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[11-22|02:32:11] InProc registered *debug.HandlerT under 'debug' 
+DEBUG[11-22|02:32:11] InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] InProc registered *node.PublicWeb3API under 'web3' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[11-22|02:32:11] InProc registered *eth.PublicEthereumAPI under 'eth' 
+INFO [11-22|02:32:11] RLPx listener up                         self=enode://089b4b3892c856e576c48ea7df313464986d278a2ebc66a88e528cacd8396bb0a1265a4974aa6905c735e7605400d54540a23ec4ab90682a2545dfd25ff6a94f@[::]:30303
+TRACE[11-22|02:32:11] New dial task                            task="discovery lookup"
+DEBUG[11-22|02:32:11] InProc registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[11-22|02:32:11] Couldn't add port mapping                proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[11-22|02:32:11] InProc registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[11-22|02:32:11] InProc registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[11-22|02:32:11] InProc registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[11-22|02:32:11] InProc registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|02:32:11] InProc registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] InProc registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] InProc registered *ethapi.PublicNetAPI under 'net' 
+DEBUG[11-22|02:32:11] IPC registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|02:32:11] IPC registered *node.PublicAdminAPI under 'admin' 
+DEBUG[11-22|02:32:11] IPC registered *debug.HandlerT under 'debug' 
+DEBUG[11-22|02:32:11] IPC registered *node.PublicDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] IPC registered *node.PublicWeb3API under 'web3' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[11-22|02:32:11] IPC registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|02:32:11] IPC registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[11-22|02:32:11] IPC registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[11-22|02:32:11] IPC registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[11-22|02:32:11] IPC registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[11-22|02:32:11] IPC registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|02:32:11] IPC registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] IPC registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[11-22|02:32:11] IPC registered *ethapi.PublicNetAPI under 'net' 
+DEBUG[11-22|02:32:11] Executing EVM call finished              runtime=5.111458ms
+DEBUG[11-22|02:32:11] HTTP registered *node.PrivateAdminAPI under 'admin' 
+INFO [11-22|02:32:11] IPC endpoint opened: /home/pi/blockchainapp/datafull/geth.ipc 
+DEBUG[11-22|02:32:11] HTTP registered *node.PublicAdminAPI under 'admin' 
+DEBUG[11-22|02:32:11] Release oracle not found                 contract=0xFA7B9770Ca4cb04296Cac84F37736d4041251CDF
+DEBUG[11-22|02:32:11] HTTP registered *node.PublicWeb3API under 'web3' 
+DEBUG[11-22|02:32:11] HTTP registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|02:32:11] HTTP registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[11-22|02:32:11] HTTP registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[11-22|02:32:11] HTTP registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[11-22|02:32:11] HTTP registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[11-22|02:32:11] HTTP registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|02:32:11] HTTP registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[11-22|02:32:11] HTTP registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[11-22|02:32:11] HTTP registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[11-22|02:32:11] HTTP registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[11-22|02:32:11] HTTP registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|02:32:11] HTTP registered *ethapi.PublicNetAPI under 'net' 
+INFO [11-22|02:32:11] HTTP endpoint opened: http://10.1.1.3:8543 
+TRACE[11-22|02:32:12] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m12.105957826s
+TRACE[11-22|02:32:12] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m12.106688816s
+TRACE[11-22|02:32:12] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m12.106943347s
+TRACE[11-22|02:32:12] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m12.106027722s
+TRACE[11-22|02:32:12] >> PING/v4                               addr=52.74.57.123:30303 err=nil
+TRACE[11-22|02:32:12] >> PING/v4                               addr=5.1.83.226:30303   err=nil
+TRACE[11-22|02:32:12] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m12.106347618s
+TRACE[11-22|02:32:12] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m12.107420066s
+TRACE[11-22|02:32:12] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:12] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:12] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:12] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+DEBUG[11-22|02:32:12] No discv4 seed nodes found 
+TRACE[11-22|02:32:12] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:12] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:16] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m16.083277356s
+TRACE[11-22|02:32:16] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m16.083907356s
+TRACE[11-22|02:32:16] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m16.083315064s
+TRACE[11-22|02:32:16] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m16.083471575s
+TRACE[11-22|02:32:16] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:16] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:16] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:16] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m16.083697304s
+TRACE[11-22|02:32:16] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m16.083624491s
+TRACE[11-22|02:32:16] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:16] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:16] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:16] Accepted connection                      addr=10.1.1.1:64665
+TRACE[11-22|02:32:16] Failed RLPx handshake                    addr=10.1.1.1:64665      conn=inbound err="ecies: invalid message"
+DEBUG[11-22|02:32:16] No discv4 seed nodes found 
+TRACE[11-22|02:32:16] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:16] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:17] Accepted connection                      addr=10.1.1.1:64677
+DEBUG[11-22|02:32:17] Adding p2p peer                          id=efb81d7bb5468892 name=Geth/v1.6.7-stable-a... addr=10.1.1.1:64677      peers=1
+TRACE[11-22|02:32:17] Starting protocol eth/63                 id=efb81d7bb5468892 conn=inbound
+DEBUG[11-22|02:32:17] Ethereum peer connected                  id=efb81d7bb5468892 conn=inbound name=Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.9
+TRACE[11-22|02:32:17] Registering sync peer                    peer=efb81d7bb5468892
+TRACE[11-22|02:32:20] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m20.09765975s
+TRACE[11-22|02:32:20] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m20.098330427s
+TRACE[11-22|02:32:20] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m20.097721834s
+TRACE[11-22|02:32:20] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m20.097854646s
+TRACE[11-22|02:32:20] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:20] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:20] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m20.098043084s
+TRACE[11-22|02:32:20] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m20.098088657s
+TRACE[11-22|02:32:20] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:20] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:20] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:20] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+DEBUG[11-22|02:32:20] No discv4 seed nodes found 
+TRACE[11-22|02:32:20] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:20] New dial task                            task="discovery lookup"
+INFO [11-22|02:32:21] Block synchronisation started 
+DEBUG[11-22|02:32:21] Synchronising with the network           peer=efb81d7bb5468892 eth=63 head=fa53f6…b9fd55 td=4289668081 mode=fast
+DEBUG[11-22|02:32:21] Retrieving remote chain height           peer=efb81d7bb5468892
+DEBUG[11-22|02:32:21] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=1 fromhash=fa53f6…b9fd55 skip=0 reverse=false
+TRACE[11-22|02:32:21] Filtering headers                        peer=efb81d7bb5468892 headers=1
+DEBUG[11-22|02:32:21] Remote head header identified            peer=efb81d7bb5468892 number=7766 hash=fa53f6…b9fd55
+DEBUG[11-22|02:32:21] Looking for common ancestor              peer=efb81d7bb5468892 local=6528 remote=7766
+DEBUG[11-22|02:32:21] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=13 fromnum=7254 skip=15 reverse=false
+DEBUG[11-22|02:32:21] Found common ancestor                    peer=efb81d7bb5468892 number=7446 hash=0aa002…de46df
+DEBUG[11-22|02:32:21] Fast syncing until pivot block           pivot=7688
+DEBUG[11-22|02:32:21] Downloading block bodies                 origin=7447
+DEBUG[11-22|02:32:21] Directing header downloads               peer=efb81d7bb5468892 origin=7447
+DEBUG[11-22|02:32:21] Downloading transaction receipts         origin=7447
+TRACE[11-22|02:32:21] Fetching skeleton headers                peer=efb81d7bb5468892 count=192 from=7447
+DEBUG[11-22|02:32:21] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=128 fromnum=7638 skip=191 reverse=false
+TRACE[11-22|02:32:21] Filtering headers                        peer=efb81d7bb5468892 headers=1
+DEBUG[11-22|02:32:21] Filling up skeleton                      from=7447
+TRACE[11-22|02:32:22] Requesting new batch of data             peer=efb81d7bb5468892 type=headers from=7447
+DEBUG[11-22|02:32:22] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7447 skip=0   reverse=false
+TRACE[11-22|02:32:22] Pre-scheduled new headers                peer=efb81d7bb5468892 count=192 from=7447
+TRACE[11-22|02:32:22] Peer throughput measurements updated     peer=efb81d7bb5468892 hps=172.362 bps=0.000 rps=0.000 sps=0.000 miss=0 rtt=18.011139364s
+TRACE[11-22|02:32:22] Delivered new batch of data              peer=efb81d7bb5468892 type=headers count=192
+DEBUG[11-22|02:32:22] Data fetching completed                  type=headers
+DEBUG[11-22|02:32:22] Skeleton fill terminated                 err=nil
+TRACE[11-22|02:32:22] Fetching skeleton headers                peer=efb81d7bb5468892 count=192 from=7639
+DEBUG[11-22|02:32:22] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=128 fromnum=7830 skip=191 reverse=false
+TRACE[11-22|02:32:22] Fetching full headers                    peer=efb81d7bb5468892 count=192 from=7639
+DEBUG[11-22|02:32:22] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7639 skip=0   reverse=false
+TRACE[11-22|02:32:22] Scheduling new headers                   peer=efb81d7bb5468892 count=128 from=7639
+TRACE[11-22|02:32:22] Fetching full headers                    peer=efb81d7bb5468892 count=192 from=7767
+DEBUG[11-22|02:32:22] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7767 skip=0   reverse=false
+DEBUG[11-22|02:32:22] No more headers available                peer=efb81d7bb5468892
+DEBUG[11-22|02:32:22] Invalid header encountered               number=7566 hash=8cc90f…ed1f50 err="block in the future"
+WARN [11-22|02:32:22] Rolled back headers                      count=119 header=6528->6528 fast=7446->7446 block=0->0
+DEBUG[11-22|02:32:22] Transaction receipt download terminated  err="receipt download canceled (requested)"
+DEBUG[11-22|02:32:22] Header download terminated               peer=efb81d7bb5468892
+DEBUG[11-22|02:32:22] Block body download terminated           err="block body download canceled (requested)"
+DEBUG[11-22|02:32:22] Synchronisation terminated               elapsed=376.362552ms
+WARN [11-22|02:32:22] Synchronisation failed, dropping peer    peer=efb81d7bb5468892 err="retrieved hash chain is invalid"
+DEBUG[11-22|02:32:22] Removing Ethereum peer                   peer=efb81d7bb5468892
+TRACE[11-22|02:32:22] Unregistering sync peer                  peer=efb81d7bb5468892
+DEBUG[11-22|02:32:22] Ethereum message handling failed         id=efb81d7bb5468892 conn=inbound err=EOF
+DEBUG[11-22|02:32:22] Removing p2p peer                        id=efb81d7bb5468892 conn=inbound duration=4.725s peers=0 req=false err="useless peer"
+INFO [11-22|02:32:22] Unlocked account                         address=0xBBb24043c7d95C0e8Dc4017BD5fc95e92Ef855F8
+TRACE[11-22|02:32:24] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m24.043383343s
+TRACE[11-22|02:32:24] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m24.04338329s
+TRACE[11-22|02:32:24] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m24.043406988s
+TRACE[11-22|02:32:24] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m24.043393499s
+TRACE[11-22|02:32:24] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m24.043526051s
+TRACE[11-22|02:32:24] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m24.043572145s
+TRACE[11-22|02:32:24] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:24] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:24] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:24] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:24] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:24] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+DEBUG[11-22|02:32:24] No discv4 seed nodes found 
+TRACE[11-22|02:32:24] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:24] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:28] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m28.071998289s
+TRACE[11-22|02:32:28] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m28.072021831s
+TRACE[11-22|02:32:28] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m28.072029956s
+TRACE[11-22|02:32:28] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m28.072028289s
+TRACE[11-22|02:32:28] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m28.072194956s
+TRACE[11-22|02:32:28] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m28.072202976s
+TRACE[11-22|02:32:28] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:28] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:28] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:28] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:28] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:28] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+DEBUG[11-22|02:32:28] No discv4 seed nodes found 
+TRACE[11-22|02:32:28] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:28] New dial task                            task="discovery lookup"
+DEBUG[11-22|02:32:29] Recalculated downloader QoS values       rtt=20s           confidence=1.000 ttl=1m0s
+TRACE[11-22|02:32:32] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m32.075969381s
+TRACE[11-22|02:32:32] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m32.076007819s
+TRACE[11-22|02:32:32] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m32.076011881s
+TRACE[11-22|02:32:32] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m32.076015371s
+TRACE[11-22|02:32:32] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m32.076175475s
+TRACE[11-22|02:32:32] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m32.076185579s
+TRACE[11-22|02:32:32] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:32] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:32] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:32] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:32] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:32] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+DEBUG[11-22|02:32:32] No discv4 seed nodes found 
+TRACE[11-22|02:32:32] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:32] New dial task                            task="dyndial a979fb575495b8d6 52.16.188.185:30303"
+TRACE[11-22|02:32:32] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:36] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m36.108187088s
+TRACE[11-22|02:32:36] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m36.108191307s
+TRACE[11-22|02:32:36] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m36.108189223s
+TRACE[11-22|02:32:36] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m36.108220421s
+TRACE[11-22|02:32:36] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m36.108441619s
+TRACE[11-22|02:32:36] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m36.108489223s
+TRACE[11-22|02:32:36] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:36] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:36] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:36] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:36] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:36] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+DEBUG[11-22|02:32:36] No discv4 seed nodes found 
+TRACE[11-22|02:32:36] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:36] New dial task                            task="dyndial 3f1d12044546b763 13.93.211.84:30303"
+TRACE[11-22|02:32:36] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:40] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m40.118425107s
+TRACE[11-22|02:32:40] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m40.118990784s
+TRACE[11-22|02:32:40] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m40.119598857s
+TRACE[11-22|02:32:40] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m40.118483753s
+TRACE[11-22|02:32:40] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m40.118645368s
+TRACE[11-22|02:32:40] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:40] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:40] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m40.124838076s
+TRACE[11-22|02:32:40] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:40] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:40] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:40] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+DEBUG[11-22|02:32:40] No discv4 seed nodes found 
+TRACE[11-22|02:32:40] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:40] New dial task                            task="dyndial 78de8a0916848093 191.235.84.50:30303"
+TRACE[11-22|02:32:40] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:44] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m44.002397397s
+TRACE[11-22|02:32:44] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:44] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m44.006657554s
+TRACE[11-22|02:32:44] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:44] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m44.010505366s
+TRACE[11-22|02:32:44] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m44.012717293s
+TRACE[11-22|02:32:44] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m44.013540002s
+TRACE[11-22|02:32:44] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:44] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:44] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:44] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m44.016815835s
+TRACE[11-22|02:32:44] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+DEBUG[11-22|02:32:44] No discv4 seed nodes found 
+TRACE[11-22|02:32:44] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:44] New dial task                            task="dyndial 158f8aab45f6d19c 13.75.154.138:30303"
+TRACE[11-22|02:32:44] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:46] Accepted connection                      addr=10.1.1.1:64738
+TRACE[11-22|02:32:46] Failed RLPx handshake                    addr=10.1.1.1:64738      conn=inbound err="ecies: invalid message"
+TRACE[11-22|02:32:47] Dial error                               task="dyndial a979fb575495b8d6 52.16.188.185:30303" err="dial tcp 52.16.188.185:30303: i/o timeout"
+TRACE[11-22|02:32:47] Dial task done                           task="dyndial a979fb575495b8d6 52.16.188.185:30303"
+TRACE[11-22|02:32:47] New dial task                            task="dyndial 1118980bf48b0a36 52.74.57.123:30303"
+TRACE[11-22|02:32:47] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m47.998190208s
+TRACE[11-22|02:32:47] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m47.998171927s
+TRACE[11-22|02:32:47] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m47.998208906s
+TRACE[11-22|02:32:48] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:48] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:47] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m47.998439583s
+TRACE[11-22|02:32:48] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:47] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m47.998372344s
+TRACE[11-22|02:32:48] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:48] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:48] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m48.001953958s
+TRACE[11-22|02:32:48] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+DEBUG[11-22|02:32:48] No discv4 seed nodes found 
+TRACE[11-22|02:32:48] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:48] New dial task                            task="dyndial 979b7fa28feeb35a 5.1.83.226:30303"
+TRACE[11-22|02:32:48] New dial task                            task="discovery lookup"
+DEBUG[11-22|02:32:49] Recalculated downloader QoS values       rtt=20s           confidence=1.000 ttl=1m0s
+TRACE[11-22|02:32:51] Dial error                               task="dyndial 3f1d12044546b763 13.93.211.84:30303"  err="dial tcp 13.93.211.84:30303: i/o timeout"
+TRACE[11-22|02:32:51] Dial task done                           task="dyndial 3f1d12044546b763 13.93.211.84:30303"
+TRACE[11-22|02:32:51] Skipping dial candidate                  id=a979fb575495b8d6 addr=52.16.188.185:30303 err="recently dialed"
+TRACE[11-22|02:32:51] Accepted connection                      addr=10.1.1.1:64741
+TRACE[11-22|02:32:51] Skipping dial candidate                  id=3f1d12044546b763 addr=13.93.211.84:30303  err="recently dialed"
+DEBUG[11-22|02:32:51] Adding p2p peer                          id=efb81d7bb5468892 name=Geth/v1.6.7-stable-a...                        addr=10.1.1.1:64741      peers=1
+TRACE[11-22|02:32:51] Starting protocol eth/63                 id=efb81d7bb5468892 conn=inbound
+DEBUG[11-22|02:32:51] Ethereum peer connected                  id=efb81d7bb5468892 conn=inbound name=Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.9
+TRACE[11-22|02:32:51] Registering sync peer                    peer=efb81d7bb5468892
+DEBUG[11-22|02:32:51] Synchronising with the network           peer=efb81d7bb5468892 eth=63 head=fa53f6…b9fd55 td=4289668081 mode=fast
+DEBUG[11-22|02:32:51] Retrieving remote chain height           peer=efb81d7bb5468892
+DEBUG[11-22|02:32:51] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=1   fromhash=fa53f6…b9fd55 skip=0   reverse=false
+TRACE[11-22|02:32:51] Filtering headers                        peer=efb81d7bb5468892 headers=1
+DEBUG[11-22|02:32:51] Remote head header identified            peer=efb81d7bb5468892 number=7766 hash=fa53f6…b9fd55
+DEBUG[11-22|02:32:51] Looking for common ancestor              peer=efb81d7bb5468892 local=6528 remote=7766
+DEBUG[11-22|02:32:51] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=13  fromnum=7254 skip=15  reverse=false
+DEBUG[11-22|02:32:51] Found common ancestor                    peer=efb81d7bb5468892 number=7446 hash=0aa002…de46df
+DEBUG[11-22|02:32:51] Fast syncing until pivot block           pivot=7554
+DEBUG[11-22|02:32:51] Downloading transaction receipts         origin=7447
+DEBUG[11-22|02:32:51] Directing header downloads               peer=efb81d7bb5468892 origin=7447
+DEBUG[11-22|02:32:51] Downloading block bodies                 origin=7447
+TRACE[11-22|02:32:51] Fetching skeleton headers                peer=efb81d7bb5468892 count=192 from=7447
+DEBUG[11-22|02:32:51] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=128 fromnum=7638 skip=191 reverse=false
+TRACE[11-22|02:32:51] Filtering headers                        peer=efb81d7bb5468892 headers=1
+DEBUG[11-22|02:32:51] Filling up skeleton                      from=7447
+TRACE[11-22|02:32:52] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m52.00350078s
+TRACE[11-22|02:32:52] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m52.00351703s
+TRACE[11-22|02:32:52] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m52.003530936s
+TRACE[11-22|02:32:52] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:52] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:52] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m52.003757707s
+TRACE[11-22|02:32:52] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:52] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m52.003711561s
+TRACE[11-22|02:32:52] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m52.007618853s
+TRACE[11-22|02:32:52] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:52] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:52] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:32:52] Requesting new batch of data             peer=efb81d7bb5468892 type=headers from=7447
+DEBUG[11-22|02:32:52] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7447 skip=0   reverse=false
+TRACE[11-22|02:32:52] Pre-scheduled new headers                peer=efb81d7bb5468892 count=192 from=7447
+TRACE[11-22|02:32:52] Peer throughput measurements updated     peer=efb81d7bb5468892 hps=305.390 bps=0.000 rps=0.000 sps=0.000 miss=0 rtt=18.006287036s
+TRACE[11-22|02:32:52] Delivered new batch of data              peer=efb81d7bb5468892 type=headers count=192
+DEBUG[11-22|02:32:52] Data fetching completed                  type=headers
+DEBUG[11-22|02:32:52] Skeleton fill terminated                 err=nil
+TRACE[11-22|02:32:52] Fetching skeleton headers                peer=efb81d7bb5468892 count=192 from=7639
+DEBUG[11-22|02:32:52] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=128 fromnum=7830 skip=191 reverse=false
+TRACE[11-22|02:32:52] Fetching full headers                    peer=efb81d7bb5468892 count=192 from=7639
+DEBUG[11-22|02:32:52] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7639 skip=0   reverse=false
+TRACE[11-22|02:32:52] Scheduling new headers                   peer=efb81d7bb5468892 count=128 from=7639
+TRACE[11-22|02:32:52] Fetching full headers                    peer=efb81d7bb5468892 count=192 from=7767
+DEBUG[11-22|02:32:52] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7767 skip=0   reverse=false
+DEBUG[11-22|02:32:52] No more headers available                peer=efb81d7bb5468892
+TRACE[11-22|02:32:52] Requiring new ethash cache               epoch=0
+TRACE[11-22|02:32:52] Requiring new future ethash cache        epoch=1
+DEBUG[11-22|02:32:52] Loaded old ethash cache from disk        epoch=0
+DEBUG[11-22|02:32:52] Loaded old ethash cache from disk        epoch=1
+DEBUG[11-22|02:32:52] Invalid header encountered               number=7566 hash=8cc90f…ed1f50 err="block in the future"
+WARN [11-22|02:32:52] Rolled back headers                      count=119 header=6528->6528 fast=7446->7446 block=0->0
+WARN [11-22|02:32:52] Fast-sync pivot locked in                number=7554 hash=60ec31…1186d3
+DEBUG[11-22|02:32:52] Header download terminated               peer=efb81d7bb5468892
+DEBUG[11-22|02:32:52] Transaction receipt download terminated  err="receipt download canceled (requested)"
+DEBUG[11-22|02:32:52] Block body download terminated           err="block body download canceled (requested)"
+DEBUG[11-22|02:32:52] Synchronisation terminated               elapsed=383.673177ms
+WARN [11-22|02:32:52] Synchronisation failed, dropping peer    peer=efb81d7bb5468892 err="retrieved hash chain is invalid"
+DEBUG[11-22|02:32:52] Removing Ethereum peer                   peer=efb81d7bb5468892
+TRACE[11-22|02:32:52] Unregistering sync peer                  peer=efb81d7bb5468892
+DEBUG[11-22|02:32:52] Ethereum message handling failed         id=efb81d7bb5468892 conn=inbound err=EOF
+DEBUG[11-22|02:32:52] Removing p2p peer                        id=efb81d7bb5468892 conn=inbound duration=522.560ms peers=0 req=false err="useless peer"
+TRACE[11-22|02:32:52] Skipping dial candidate                  id=78de8a0916848093 addr=191.235.84.50:30303 err="already dialing"
+DEBUG[11-22|02:32:52] No discv4 seed nodes found 
+TRACE[11-22|02:32:52] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:52] Skipping dial candidate                  id=158f8aab45f6d19c addr=13.75.154.138:30303 err="already dialing"
+TRACE[11-22|02:32:52] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:55] Dial error                               task="dyndial 78de8a0916848093 191.235.84.50:30303" err="dial tcp 191.235.84.50:30303: i/o timeout"
+TRACE[11-22|02:32:55] Dial task done                           task="dyndial 78de8a0916848093 191.235.84.50:30303"
+TRACE[11-22|02:32:55] Skipping dial candidate                  id=1118980bf48b0a36 addr=52.74.57.123:30303  err="already dialing"
+TRACE[11-22|02:32:56] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h32m56.009270518s
+TRACE[11-22|02:32:56] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h32m56.009276455s
+TRACE[11-22|02:32:56] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h32m56.009275049s
+TRACE[11-22|02:32:56] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h32m56.009475882s
+TRACE[11-22|02:32:56] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h32m56.009534737s
+TRACE[11-22|02:32:56] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:32:56] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:32:56] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:32:56] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:32:56] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:32:56] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h32m56.013402497s
+TRACE[11-22|02:32:56] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+DEBUG[11-22|02:32:56] No discv4 seed nodes found 
+TRACE[11-22|02:32:56] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:32:56] Skipping dial candidate                  id=979b7fa28feeb35a addr=5.1.83.226:30303    err="already dialing"
+TRACE[11-22|02:32:56] New dial task                            task="discovery lookup"
+TRACE[11-22|02:32:59] Dial error                               task="dyndial 158f8aab45f6d19c 13.75.154.138:30303" err="dial tcp 13.75.154.138:30303: i/o timeout"
+TRACE[11-22|02:32:59] Dial task done                           task="dyndial 158f8aab45f6d19c 13.75.154.138:30303"
+TRACE[11-22|02:32:59] Skipping dial candidate                  id=a979fb575495b8d6 addr=52.16.188.185:30303 err="recently dialed"
+TRACE[11-22|02:33:00] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m0.01455786s
+TRACE[11-22|02:33:00] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m0.014538016s
+TRACE[11-22|02:33:00] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m0.014570464s
+TRACE[11-22|02:33:00] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m0.01456661s
+TRACE[11-22|02:33:00] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m0.014801662s
+TRACE[11-22|02:33:00] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m0.014813173s
+TRACE[11-22|02:33:00] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:00] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:00] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:00] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:00] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:00] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+DEBUG[11-22|02:33:00] No discv4 seed nodes found 
+TRACE[11-22|02:33:00] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:00] Skipping dial candidate                  id=3f1d12044546b763 addr=13.93.211.84:30303  err="recently dialed"
+TRACE[11-22|02:33:00] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:02] Dial error                               task="dyndial 1118980bf48b0a36 52.74.57.123:30303"  err="dial tcp 52.74.57.123:30303: i/o timeout"
+TRACE[11-22|02:33:02] Dial task done                           task="dyndial 1118980bf48b0a36 52.74.57.123:30303"
+TRACE[11-22|02:33:02] Skipping dial candidate                  id=78de8a0916848093 addr=191.235.84.50:30303 err="recently dialed"
+TRACE[11-22|02:33:03] Dial error                               task="dyndial 979b7fa28feeb35a 5.1.83.226:30303"    err="dial tcp 5.1.83.226:30303: i/o timeout"
+TRACE[11-22|02:33:03] Dial task done                           task="dyndial 979b7fa28feeb35a 5.1.83.226:30303"
+TRACE[11-22|02:33:03] Skipping dial candidate                  id=158f8aab45f6d19c addr=13.75.154.138:30303 err="recently dialed"
+TRACE[11-22|02:33:04] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m4.020665098s
+TRACE[11-22|02:33:04] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m4.020938848s
+TRACE[11-22|02:33:04] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m4.02066614s
+TRACE[11-22|02:33:04] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m4.020677963s
+TRACE[11-22|02:33:04] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m4.020674942s
+TRACE[11-22|02:33:04] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m4.020941296s
+TRACE[11-22|02:33:04] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:04] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:04] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:04] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:04] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:04] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+DEBUG[11-22|02:33:04] No discv4 seed nodes found 
+TRACE[11-22|02:33:04] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:04] Skipping dial candidate                  id=1118980bf48b0a36 addr=52.74.57.123:30303  err="recently dialed"
+TRACE[11-22|02:33:04] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:08] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m8.022680097s
+TRACE[11-22|02:33:08] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m8.023218065s
+TRACE[11-22|02:33:08] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m8.022680149s
+TRACE[11-22|02:33:08] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m8.02272942s
+TRACE[11-22|02:33:08] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m8.022914628s
+TRACE[11-22|02:33:08] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m8.022941399s
+TRACE[11-22|02:33:08] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:08] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:08] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:08] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:08] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:08] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+DEBUG[11-22|02:33:08] No discv4 seed nodes found 
+TRACE[11-22|02:33:08] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:08] Skipping dial candidate                  id=979b7fa28feeb35a addr=5.1.83.226:30303    err="recently dialed"
+TRACE[11-22|02:33:08] New dial task                            task="discovery lookup"
+DEBUG[11-22|02:33:09] Recalculated downloader QoS values       rtt=20s           confidence=1.000 ttl=1m0s
+TRACE[11-22|02:33:12] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m12.028068741s
+TRACE[11-22|02:33:12] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m12.028081189s
+TRACE[11-22|02:33:12] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m12.028108533s
+TRACE[11-22|02:33:12] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m12.02829697s
+TRACE[11-22|02:33:12] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m12.028328637s
+TRACE[11-22|02:33:12] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m12.028568637s
+TRACE[11-22|02:33:12] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:12] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:12] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:12] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:12] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:12] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+DEBUG[11-22|02:33:12] No discv4 seed nodes found 
+TRACE[11-22|02:33:12] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:12] Skipping dial candidate                  id=a979fb575495b8d6 addr=52.16.188.185:30303 err="recently dialed"
+TRACE[11-22|02:33:12] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:16] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m16.033290354s
+TRACE[11-22|02:33:16] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m16.033299833s
+TRACE[11-22|02:33:16] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m16.03334301s
+TRACE[11-22|02:33:16] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:16] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:16] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m16.033339625s
+TRACE[11-22|02:33:16] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:16] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m16.033569729s
+TRACE[11-22|02:33:16] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m16.033608479s
+TRACE[11-22|02:33:16] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:16] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:16] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+DEBUG[11-22|02:33:16] No discv4 seed nodes found 
+TRACE[11-22|02:33:16] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:16] Skipping dial candidate                  id=3f1d12044546b763 addr=13.93.211.84:30303  err="recently dialed"
+TRACE[11-22|02:33:16] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:17] Accepted connection                      addr=10.1.1.1:64808
+TRACE[11-22|02:33:17] Failed RLPx handshake                    addr=10.1.1.1:64808      conn=inbound err="ecies: invalid message"
+TRACE[11-22|02:33:20] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m20.018157905s
+TRACE[11-22|02:33:20] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m20.018154832s
+TRACE[11-22|02:33:20] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m20.018182019s
+TRACE[11-22|02:33:20] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m20.0182828s
+TRACE[11-22|02:33:20] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m20.018298894s
+TRACE[11-22|02:33:20] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:20] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:20] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:20] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m20.018693842s
+TRACE[11-22|02:33:20] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:20] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:20] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+DEBUG[11-22|02:33:20] No discv4 seed nodes found 
+TRACE[11-22|02:33:20] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:20] Skipping dial candidate                  id=78de8a0916848093 addr=191.235.84.50:30303 err="recently dialed"
+TRACE[11-22|02:33:20] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:22] Accepted connection                      addr=10.1.1.1:64825
+TRACE[11-22|02:33:22] Skipping dial candidate                  id=158f8aab45f6d19c addr=13.75.154.138:30303 err="recently dialed"
+DEBUG[11-22|02:33:22] Adding p2p peer                          id=efb81d7bb5468892 name=Geth/v1.6.7-stable-a...                        addr=10.1.1.1:64825      peers=1
+TRACE[11-22|02:33:22] Starting protocol eth/63                 id=efb81d7bb5468892 conn=inbound
+DEBUG[11-22|02:33:22] Ethereum peer connected                  id=efb81d7bb5468892 conn=inbound name=Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.9
+TRACE[11-22|02:33:22] Registering sync peer                    peer=efb81d7bb5468892
+TRACE[11-22|02:33:24] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m24.020809778s
+TRACE[11-22|02:33:24] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m24.021053163s
+TRACE[11-22|02:33:24] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m24.020814205s
+TRACE[11-22|02:33:24] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m24.020820091s
+TRACE[11-22|02:33:24] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m24.020936288s
+TRACE[11-22|02:33:24] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:24] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:24] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:24] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m24.021416132s
+TRACE[11-22|02:33:24] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:24] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:24] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+DEBUG[11-22|02:33:24] No discv4 seed nodes found 
+TRACE[11-22|02:33:24] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:24] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:28] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m28.049192433s
+TRACE[11-22|02:33:28] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m28.049192016s
+TRACE[11-22|02:33:28] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m28.049196183s
+TRACE[11-22|02:33:28] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:28] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m28.049335662s
+TRACE[11-22|02:33:28] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:28] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m28.049356651s
+TRACE[11-22|02:33:28] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:28] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m28.049429672s
+TRACE[11-22|02:33:28] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:28] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:28] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+DEBUG[11-22|02:33:28] No discv4 seed nodes found 
+TRACE[11-22|02:33:28] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:28] New dial task                            task="discovery lookup"
+DEBUG[11-22|02:33:29] Recalculated downloader QoS values       rtt=20s           confidence=1.000 ttl=1m0s
+DEBUG[11-22|02:33:31] Synchronising with the network           peer=efb81d7bb5468892 eth=63 head=fa53f6…b9fd55 td=4289668081 mode=fast
+DEBUG[11-22|02:33:31] Retrieving remote chain height           peer=efb81d7bb5468892
+DEBUG[11-22|02:33:31] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=1   fromhash=fa53f6…b9fd55 skip=0   reverse=false
+TRACE[11-22|02:33:31] Filtering headers                        peer=efb81d7bb5468892 headers=1
+DEBUG[11-22|02:33:31] Remote head header identified            peer=efb81d7bb5468892 number=7766 hash=fa53f6…b9fd55
+DEBUG[11-22|02:33:31] Looking for common ancestor              peer=efb81d7bb5468892 local=6528 remote=7766
+DEBUG[11-22|02:33:31] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=13  fromnum=7254 skip=15  reverse=false
+DEBUG[11-22|02:33:31] Found common ancestor                    peer=efb81d7bb5468892 number=7446 hash=0aa002…de46df
+DEBUG[11-22|02:33:31] Fast syncing until pivot block           pivot=7554
+DEBUG[11-22|02:33:31] Directing header downloads               peer=efb81d7bb5468892 origin=7447
+DEBUG[11-22|02:33:31] Downloading transaction receipts         origin=7447
+DEBUG[11-22|02:33:31] Downloading block bodies                 origin=7447
+TRACE[11-22|02:33:31] Fetching skeleton headers                peer=efb81d7bb5468892 count=192 from=7447
+DEBUG[11-22|02:33:31] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=128 fromnum=7638 skip=191 reverse=false
+TRACE[11-22|02:33:31] Filtering headers                        peer=efb81d7bb5468892 headers=1
+DEBUG[11-22|02:33:31] Filling up skeleton                      from=7447
+TRACE[11-22|02:33:32] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m32.04704014s
+TRACE[11-22|02:33:32] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m32.047036806s
+TRACE[11-22|02:33:32] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m32.047036702s
+TRACE[11-22|02:33:32] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m32.04716264s
+TRACE[11-22|02:33:32] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m32.047170973s
+TRACE[11-22|02:33:32] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:32] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:32] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:32] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:32] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m32.047349254s
+TRACE[11-22|02:33:32] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:32] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:32] Requesting new batch of data             peer=efb81d7bb5468892 type=headers from=7447
+DEBUG[11-22|02:33:32] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7447 skip=0   reverse=false
+TRACE[11-22|02:33:32] Pre-scheduled new headers                peer=efb81d7bb5468892 count=192 from=7447
+TRACE[11-22|02:33:32] Peer throughput measurements updated     peer=efb81d7bb5468892 hps=280.308 bps=0.000 rps=0.000 sps=0.000 miss=0 rtt=18.006849609s
+TRACE[11-22|02:33:32] Delivered new batch of data              peer=efb81d7bb5468892 type=headers count=192
+DEBUG[11-22|02:33:32] Data fetching completed                  type=headers
+DEBUG[11-22|02:33:32] Skeleton fill terminated                 err=nil
+TRACE[11-22|02:33:32] Fetching skeleton headers                peer=efb81d7bb5468892 count=192 from=7639
+DEBUG[11-22|02:33:32] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=128 fromnum=7830 skip=191 reverse=false
+TRACE[11-22|02:33:32] Fetching full headers                    peer=efb81d7bb5468892 count=192 from=7639
+DEBUG[11-22|02:33:32] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7639 skip=0   reverse=false
+TRACE[11-22|02:33:32] Scheduling new headers                   peer=efb81d7bb5468892 count=128 from=7639
+TRACE[11-22|02:33:32] Fetching full headers                    peer=efb81d7bb5468892 count=192 from=7767
+DEBUG[11-22|02:33:32] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7767 skip=0   reverse=false
+DEBUG[11-22|02:33:32] No more headers available                peer=efb81d7bb5468892
+DEBUG[11-22|02:33:32] Invalid header encountered               number=7566 hash=8cc90f…ed1f50 err="block in the future"
+WARN [11-22|02:33:32] Rolled back headers                      count=119 header=6528->6528 fast=7446->7446 block=0->0
+DEBUG[11-22|02:33:32] Header download terminated               peer=efb81d7bb5468892
+DEBUG[11-22|02:33:32] Block body download terminated           err="block body download canceled (requested)"
+DEBUG[11-22|02:33:32] Transaction receipt download terminated  err="receipt download canceled (requested)"
+DEBUG[11-22|02:33:32] Synchronisation terminated               elapsed=431.24802ms
+WARN [11-22|02:33:32] Synchronisation failed, dropping peer    peer=efb81d7bb5468892 err="retrieved hash chain is invalid"
+DEBUG[11-22|02:33:32] Removing Ethereum peer                   peer=efb81d7bb5468892
+TRACE[11-22|02:33:32] Unregistering sync peer                  peer=efb81d7bb5468892
+DEBUG[11-22|02:33:32] Ethereum message handling failed         id=efb81d7bb5468892 conn=inbound err=EOF
+DEBUG[11-22|02:33:32] Removing p2p peer                        id=efb81d7bb5468892 conn=inbound duration=9.965s    peers=0 req=false err="useless peer"
+TRACE[11-22|02:33:32] Skipping dial candidate                  id=1118980bf48b0a36 addr=52.74.57.123:30303  err="recently dialed"
+DEBUG[11-22|02:33:32] No discv4 seed nodes found 
+TRACE[11-22|02:33:32] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:32] Skipping dial candidate                  id=979b7fa28feeb35a addr=5.1.83.226:30303    err="recently dialed"
+TRACE[11-22|02:33:32] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:36] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m36.057085294s
+TRACE[11-22|02:33:36] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m36.05708868s
+TRACE[11-22|02:33:36] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m36.057136805s
+TRACE[11-22|02:33:36] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m36.057319773s
+TRACE[11-22|02:33:36] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m36.057333107s
+TRACE[11-22|02:33:36] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m36.057588523s
+TRACE[11-22|02:33:36] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:36] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:36] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:36] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:36] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:36] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+DEBUG[11-22|02:33:36] No discv4 seed nodes found 
+TRACE[11-22|02:33:36] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:36] New dial task                            task="dyndial a979fb575495b8d6 52.16.188.185:30303"
+TRACE[11-22|02:33:36] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:40] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m40.033091386s
+TRACE[11-22|02:33:40] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:40] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m40.033091491s
+TRACE[11-22|02:33:40] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m40.033117376s
+TRACE[11-22|02:33:40] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m40.033231907s
+TRACE[11-22|02:33:40] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m40.033246022s
+TRACE[11-22|02:33:40] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m40.033323314s
+TRACE[11-22|02:33:40] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:40] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:40] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:40] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:40] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+DEBUG[11-22|02:33:40] No discv4 seed nodes found 
+TRACE[11-22|02:33:40] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:40] New dial task                            task="dyndial 3f1d12044546b763 13.93.211.84:30303"
+TRACE[11-22|02:33:40] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:44] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m44.057535708s
+TRACE[11-22|02:33:44] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m44.057794041s
+TRACE[11-22|02:33:44] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m44.057594302s
+TRACE[11-22|02:33:44] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m44.057606645s
+TRACE[11-22|02:33:44] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m44.057704302s
+TRACE[11-22|02:33:44] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m44.057720812s
+TRACE[11-22|02:33:44] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:44] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:44] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:44] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:44] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:44] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+DEBUG[11-22|02:33:44] No discv4 seed nodes found 
+TRACE[11-22|02:33:44] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:44] New dial task                            task="dyndial 78de8a0916848093 191.235.84.50:30303"
+TRACE[11-22|02:33:44] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:48] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m48.035972581s
+TRACE[11-22|02:33:48] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m48.035990654s
+TRACE[11-22|02:33:48] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m48.036105133s
+TRACE[11-22|02:33:48] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m48.036136123s
+TRACE[11-22|02:33:48] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m48.035973206s
+TRACE[11-22|02:33:48] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m48.036194144s
+TRACE[11-22|02:33:48] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|02:33:48] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:48] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:48] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:48] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:48] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+DEBUG[11-22|02:33:48] No discv4 seed nodes found 
+TRACE[11-22|02:33:48] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:48] New dial task                            task="dyndial 158f8aab45f6d19c 13.75.154.138:30303"
+TRACE[11-22|02:33:48] New dial task                            task="discovery lookup"
+TRACE[11-22|02:33:49] Accepted connection                      addr=10.1.1.1:64879
+TRACE[11-22|02:33:49] Failed RLPx handshake                    addr=10.1.1.1:64879      conn=inbound err="ecies: invalid message"
+DEBUG[11-22|02:33:49] Recalculated downloader QoS values       rtt=20s           confidence=1.000 ttl=1m0s
+TRACE[11-22|02:33:51] Dial error                               task="dyndial a979fb575495b8d6 52.16.188.185:30303" err="dial tcp 52.16.188.185:30303: i/o timeout"
+TRACE[11-22|02:33:51] Dial task done                           task="dyndial a979fb575495b8d6 52.16.188.185:30303"
+TRACE[11-22|02:33:51] New dial task                            task="dyndial 1118980bf48b0a36 52.74.57.123:30303"
+TRACE[11-22|02:33:52] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419810h33m52.075473465s
+TRACE[11-22|02:33:52] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419810h33m52.075988153s
+TRACE[11-22|02:33:52] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419810h33m52.076458257s
+TRACE[11-22|02:33:52] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419810h33m52.075715653s
+TRACE[11-22|02:33:52] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419810h33m52.075453778s
+TRACE[11-22|02:33:52] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419810h33m52.07651659s
+TRACE[11-22|02:33:52] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|02:33:52] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|02:33:52] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|02:33:52] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|02:33:52] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|02:33:52] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+DEBUG[11-22|02:33:52] No discv4 seed nodes found 
+TRACE[11-22|02:33:52] Dial task done                           task="discovery lookup"
+TRACE[11-22|02:33:52] New dial task                            task="dyndial 979b7fa28feeb35a 5.1.83.226:30303"
+TRACE[11-22|02:33:52] New dial task                            task="discovery lookup"
+INFO [11-22|02:33:54] Got interrupt, shutting down... 
+INFO [11-22|02:33:54] HTTP endpoint closed: http://10.1.1.3:8543 
+DEBUG[11-22|02:33:54] RPC Server shutdown initiatied 
+INFO [11-22|02:33:54] IPC endpoint closed: /home/pi/blockchainapp/datafull/geth.ipc 
+DEBUG[11-22|02:33:54] RPC Server shutdown initiatied 
+INFO [11-22|02:33:54] Blockchain manager stopped 
+INFO [11-22|02:33:54] Stopping Ethereum protocol 
+INFO [11-22|02:33:54] Ethereum protocol stopped 
+INFO [11-22|02:33:54] Transaction pool stopped 
+INFO [11-22|02:33:54] Database closed                          database=/home/pi/blockchainapp/datafull/geth/chaindata
+DEBUG[11-22|02:33:54] Deleting port mapping                    proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP"
+DEBUG[11-22|02:33:54] Read error                               err="accept tcp [::]:30303: use of closed network connection"
+TRACE[11-22|02:33:54] P2P networking is spinning down 
+DEBUG[11-22|02:33:54] Deleting port mapping                    proto=udp extport=30303 intport=30303 interface="UPnP or NAT-PMP"
+DEBUG[11-22|02:33:54] UDP read error                           err="read udp [::]:30303: use of closed network connection"

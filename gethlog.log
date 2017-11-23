@@ -1,0 +1,31 @@
+INFO [11-22|02:11:22] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-arm/go1.9
+INFO [11-22|02:11:22] Allocated cache and file handles         database=/home/pi/blockchainapp/datafull/geth/chaindata cache=512 handles=1024
+INFO [11-22|02:11:22] Initialised chain configuration          config="{ChainID: 1506754 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-22|02:11:22] Disk storage enabled for ethash caches   dir=/home/pi/blockchainapp/datafull/geth/ethash count=3
+INFO [11-22|02:11:22] Disk storage enabled for ethash DAGs     dir=/home/pi/.ethash                            count=2
+INFO [11-22|02:11:22] Initialising Ethereum protocol           versions="[63 62]" network=6666
+INFO [11-22|02:11:23] Loaded most recent local header          number=6528 hash=48aa8e…2b5b33 td=3381794995
+INFO [11-22|02:11:23] Loaded most recent local full block      number=0    hash=b933b6…90377e td=20
+INFO [11-22|02:11:23] Loaded most recent local fast block      number=7485 hash=760925…c6f398 td=4137969579
+INFO [11-22|02:11:23] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-22|02:11:23] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-22|02:11:23] Starting P2P networking 
+INFO [11-22|02:11:25] UDP listener up                          self=enode://089b4b3892c856e576c48ea7df313464986d278a2ebc66a88e528cacd8396bb0a1265a4974aa6905c735e7605400d54540a23ec4ab90682a2545dfd25ff6a94f@[::]:30303
+INFO [11-22|02:11:25] RLPx listener up                         self=enode://089b4b3892c856e576c48ea7df313464986d278a2ebc66a88e528cacd8396bb0a1265a4974aa6905c735e7605400d54540a23ec4ab90682a2545dfd25ff6a94f@[::]:30303
+INFO [11-22|02:11:25] IPC endpoint opened: /home/pi/blockchainapp/datafull/geth.ipc 
+INFO [11-22|02:11:25] HTTP endpoint opened: http://10.1.1.3:8543 
+INFO [11-22|02:11:36] Unlocked account                         address=0xBBb24043c7d95C0e8Dc4017BD5fc95e92Ef855F8
+INFO [11-22|02:11:45] Block synchronisation started 
+WARN [11-22|02:11:45] Rolled back headers                      count=80 header=6528->6528 fast=7485->7485 block=0->0
+WARN [11-22|02:11:45] Fast-sync pivot locked in                number=7555 hash=451ee6…fcc90c
+WARN [11-22|02:11:45] Synchronisation failed, dropping peer    peer=efb81d7bb5468892 err="retrieved hash chain is invalid"
+WARN [11-22|02:12:25] Rolled back headers                      count=80 header=6528->6528 fast=7485->7485 block=0->0
+WARN [11-22|02:12:25] Synchronisation failed, dropping peer    peer=efb81d7bb5468892 err="retrieved hash chain is invalid"
+INFO [11-22|02:12:38] Got interrupt, shutting down... 
+INFO [11-22|02:12:38] HTTP endpoint closed: http://10.1.1.3:8543 
+INFO [11-22|02:12:38] IPC endpoint closed: /home/pi/blockchainapp/datafull/geth.ipc 
+INFO [11-22|02:12:38] Blockchain manager stopped 
+INFO [11-22|02:12:38] Stopping Ethereum protocol 
+INFO [11-22|02:12:38] Ethereum protocol stopped 
+INFO [11-22|02:12:38] Transaction pool stopped 
+INFO [11-22|02:12:38] Database closed                          database=/home/pi/blockchainapp/datafull/geth/chaindata

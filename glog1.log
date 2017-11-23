@@ -1,0 +1,1348 @@
+TRACE[11-22|03:19:24] Started watching keystore folder         path=/home/pi/blockchainapp/datafull/keystore
+DEBUG[11-22|03:19:24] FS scan times                            list=955.157µs set=44.271µs diff=44.062µs
+DEBUG[11-22|03:19:24] FS scan times                            list=225.26µs  set=38.698µs diff=43.854µs
+TRACE[11-22|03:19:24] Handled keystore changes                 time=7.708µs
+TRACE[11-22|03:19:24] Handled keystore changes                 time=2.307344ms
+INFO [11-22|03:19:24] Starting peer-to-peer node               instance=Geth/v1.7.2-stable-1db4ecdc/linux-arm/go1.9
+INFO [11-22|03:19:24] Allocated cache and file handles         database=/home/pi/blockchainapp/datafull/geth/chaindata cache=32 handles=1024
+INFO [11-22|03:19:24] Initialised chain configuration          config="{ChainID: 1506754 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [11-22|03:19:24] Disk storage enabled for ethash caches   dir=/home/pi/blockchainapp/datafull/geth/ethash count=3
+INFO [11-22|03:19:24] Disk storage enabled for ethash DAGs     dir=/home/pi/.ethash                            count=2
+INFO [11-22|03:19:24] Initialising Ethereum protocol           versions="[63 62]" network=6666
+INFO [11-22|03:19:24] Loaded most recent local header          number=6528 hash=48aa8e…2b5b33 td=3381794995
+INFO [11-22|03:19:24] Loaded most recent local full block      number=0    hash=b933b6…90377e td=20
+INFO [11-22|03:19:24] Loaded most recent local fast block      number=7446 hash=0aa002…de46df td=4115079765
+DEBUG[11-22|03:19:24] Reinjecting stale transactions           count=0
+INFO [11-22|03:19:24] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-22|03:19:24] Regenerated local transaction journal    transactions=0 accounts=0
+DEBUG[11-22|03:19:24] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [11-22|03:19:24] Starting P2P networking 
+DEBUG[11-22|03:19:26] Couldn't add port mapping                proto=udp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+INFO [11-22|03:19:26] UDP listener up                          self=enode://089b4b3892c856e576c48ea7df313464986d278a2ebc66a88e528cacd8396bb0a1265a4974aa6905c735e7605400d54540a23ec4ab90682a2545dfd25ff6a94f@[::]:30303
+DEBUG[11-22|03:19:26] InProc registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] InProc registered *node.PublicAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] InProc registered *debug.HandlerT under 'debug' 
+DEBUG[11-22|03:19:26] InProc registered *node.PublicDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] InProc registered *node.PublicWeb3API under 'web3' 
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PublicBlockChainAPI under 'eth' 
+INFO [11-22|03:19:26] RLPx listener up                         self=enode://089b4b3892c856e576c48ea7df313464986d278a2ebc66a88e528cacd8396bb0a1265a4974aa6905c735e7605400d54540a23ec4ab90682a2545dfd25ff6a94f@[::]:30303
+TRACE[11-22|03:19:26] New dial task                            task="discovery lookup"
+DEBUG[11-22|03:19:26] Couldn't add port mapping                proto=tcp extport=30303 intport=30303 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[11-22|03:19:26] InProc registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|03:19:26] InProc registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[11-22|03:19:26] InProc registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[11-22|03:19:26] InProc registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[11-22|03:19:26] InProc registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[11-22|03:19:26] InProc registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] InProc registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] InProc registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] InProc registered *ethapi.PublicNetAPI under 'net' 
+DEBUG[11-22|03:19:26] IPC registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] IPC registered *node.PublicAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] IPC registered *debug.HandlerT under 'debug' 
+DEBUG[11-22|03:19:26] IPC registered *node.PublicDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] IPC registered *node.PublicWeb3API under 'web3' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PublicTxPoolAPI under 'txpool' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PublicDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PrivateDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[11-22|03:19:26] IPC registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|03:19:26] IPC registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[11-22|03:19:26] IPC registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[11-22|03:19:26] IPC registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[11-22|03:19:26] Executing EVM call finished              runtime=1.512552ms
+DEBUG[11-22|03:19:26] Release oracle not found                 contract=0xFA7B9770Ca4cb04296Cac84F37736d4041251CDF
+DEBUG[11-22|03:19:26] IPC registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[11-22|03:19:26] IPC registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] IPC registered *eth.PublicDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] IPC registered *eth.PrivateDebugAPI under 'debug' 
+DEBUG[11-22|03:19:26] IPC registered *ethapi.PublicNetAPI under 'net' 
+INFO [11-22|03:19:26] IPC endpoint opened: /home/pi/blockchainapp/datafull/geth.ipc 
+DEBUG[11-22|03:19:26] HTTP registered *node.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] HTTP registered *node.PublicAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] HTTP registered *node.PublicWeb3API under 'web3' 
+DEBUG[11-22|03:19:26] HTTP registered *ethapi.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|03:19:26] HTTP registered *ethapi.PublicBlockChainAPI under 'eth' 
+DEBUG[11-22|03:19:26] HTTP registered *ethapi.PublicTransactionPoolAPI under 'eth' 
+DEBUG[11-22|03:19:26] HTTP registered *ethapi.PublicAccountAPI under 'eth' 
+DEBUG[11-22|03:19:26] HTTP registered *ethapi.PrivateAccountAPI under 'personal' 
+DEBUG[11-22|03:19:26] HTTP registered *eth.PublicEthereumAPI under 'eth' 
+DEBUG[11-22|03:19:26] HTTP registered *eth.PublicMinerAPI under 'eth' 
+DEBUG[11-22|03:19:26] HTTP registered *downloader.PublicDownloaderAPI under 'eth' 
+DEBUG[11-22|03:19:26] HTTP registered *eth.PrivateMinerAPI under 'miner' 
+DEBUG[11-22|03:19:26] HTTP registered *filters.PublicFilterAPI under 'eth' 
+DEBUG[11-22|03:19:26] HTTP registered *eth.PrivateAdminAPI under 'admin' 
+DEBUG[11-22|03:19:26] HTTP registered *ethapi.PublicNetAPI under 'net' 
+INFO [11-22|03:19:26] HTTP endpoint opened: http://10.1.1.3:8543 
+TRACE[11-22|03:19:26] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m26.923545344s
+TRACE[11-22|03:19:26] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m26.924091698s
+TRACE[11-22|03:19:26] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m26.924718834s
+TRACE[11-22|03:19:26] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m26.923551698s
+TRACE[11-22|03:19:26] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m26.923821594s
+TRACE[11-22|03:19:26] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:19:26] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:19:26] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:26] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:19:26] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:19:26] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m26.932813261s
+TRACE[11-22|03:19:26] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+DEBUG[11-22|03:19:27] No discv4 seed nodes found 
+TRACE[11-22|03:19:27] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:27] New dial task                            task="discovery lookup"
+TRACE[11-22|03:19:30] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m30.893130238s
+TRACE[11-22|03:19:30] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m30.893502843s
+TRACE[11-22|03:19:30] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m30.893571801s
+TRACE[11-22|03:19:30] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:19:30] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m30.893247791s
+TRACE[11-22|03:19:30] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m30.893805395s
+TRACE[11-22|03:19:30] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m30.893176228s
+TRACE[11-22|03:19:30] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:30] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:19:30] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:19:30] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:19:30] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+DEBUG[11-22|03:19:31] No discv4 seed nodes found 
+TRACE[11-22|03:19:31] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:31] New dial task                            task="discovery lookup"
+TRACE[11-22|03:19:34] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m34.899700706s
+TRACE[11-22|03:19:34] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m34.900053258s
+TRACE[11-22|03:19:34] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m34.90010232s
+TRACE[11-22|03:19:34] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:34] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:19:34] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m34.900354716s
+TRACE[11-22|03:19:34] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m34.899747789s
+TRACE[11-22|03:19:34] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m34.899750133s
+TRACE[11-22|03:19:34] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:19:34] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:19:34] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:19:34] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+DEBUG[11-22|03:19:35] No discv4 seed nodes found 
+TRACE[11-22|03:19:35] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:35] New dial task                            task="discovery lookup"
+INFO [11-22|03:19:36] Unlocked account                         address=0xBBb24043c7d95C0e8Dc4017BD5fc95e92Ef855F8
+TRACE[11-22|03:19:37]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"rpc_modules\",\"params\":null}"
+TRACE[11-22|03:19:37]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"admin\":\"1.0\",\"debug\":\"1.0\",\"eth\":\"1.0\",\"miner\":\"1.0\",\"net\":\"1.0\",\"personal\":\"1.0\",\"rpc\":\"1.0\",\"txpool\":\"1.0\",\"web3\":\"1.0\"}}"
+TRACE[11-22|03:19:37]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"web3_clientVersion\",\"params\":[]}"
+TRACE[11-22|03:19:37]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":2,\"result\":\"Geth/v1.7.2-stable-1db4ecdc/linux-arm/go1.9\"}"
+TRACE[11-22|03:19:37]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":3,\"method\":\"eth_coinbase\",\"params\":[]}"
+TRACE[11-22|03:19:37]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":3,\"result\":\"0xbbb24043c7d95c0e8dc4017bd5fc95e92ef855f8\"}"
+TRACE[11-22|03:19:37]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":4,\"method\":\"eth_blockNumber\",\"params\":[]}"
+TRACE[11-22|03:19:37]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":4,\"result\":\"0x0\"}"
+TRACE[11-22|03:19:37]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":5,\"method\":\"eth_blockNumber\",\"params\":[]}"
+TRACE[11-22|03:19:37]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":5,\"result\":\"0x0\"}"
+TRACE[11-22|03:19:37]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":6,\"method\":\"eth_getBlockByNumber\",\"params\":[\"0x0\",false]}"
+TRACE[11-22|03:19:37]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":6,\"result\":{\"difficulty\":\"0x14\",\"extraData\":\"0x\",\"gasLimit\":\"0x200b20\",\"gasUsed\":\"0x0\",\"hash\":\"0xb933b601a7b7b129c4fe54684a62b401b31b65570245030a11ed6da17790377e\",\"logsBloom\":\"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"miner\":\"0x0000000000000000000000000000000000000000\",\"mixHash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"nonce\":\"0x0000000000000000\",\"number\":\"0x0\",\"parentHash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"receiptsRoot\":\"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421\",\"sha3Uncles\":\"0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347\",\"size\":\"0x1f8\",\"stateRoot\":\"0x057f8ddd860f192cfbd5b4b1cb652034025c1019d159a8664ddd4d9e97a784f6\",\"timestamp\":\"0x0\",\"totalDifficulty\":\"0x14\",\"transactions\":[],\"transactionsRoot\":\"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421\",\"uncles\":[]}}"
+TRACE[11-22|03:19:37]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":7,\"method\":\"admin_datadir\",\"params\":[]}"
+TRACE[11-22|03:19:37]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":7,\"result\":\"/home/pi/blockchainapp/datafull\"}"
+TRACE[11-22|03:19:37]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":8,\"method\":\"rpc_modules\",\"params\":null}"
+TRACE[11-22|03:19:37]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":8,\"result\":{\"admin\":\"1.0\",\"debug\":\"1.0\",\"eth\":\"1.0\",\"miner\":\"1.0\",\"net\":\"1.0\",\"personal\":\"1.0\",\"rpc\":\"1.0\",\"txpool\":\"1.0\",\"web3\":\"1.0\"}}"
+TRACE[11-22|03:19:38] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m38.906840496s
+TRACE[11-22|03:19:38] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m38.907158569s
+TRACE[11-22|03:19:38] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m38.90724935s
+TRACE[11-22|03:19:38] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m38.906915235s
+TRACE[11-22|03:19:38] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m38.906826017s
+TRACE[11-22|03:19:38] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:19:38] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:19:38] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:19:38] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m38.911442683s
+TRACE[11-22|03:19:38] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:38] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:19:38] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+DEBUG[11-22|03:19:39] No discv4 seed nodes found 
+TRACE[11-22|03:19:39] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:39] New dial task                            task="discovery lookup"
+TRACE[11-22|03:19:42] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m42.879683776s
+TRACE[11-22|03:19:42] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m42.879667369s
+TRACE[11-22|03:19:42] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m42.879691953s
+TRACE[11-22|03:19:42] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m42.879815026s
+TRACE[11-22|03:19:42] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:19:42] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m42.879852994s
+TRACE[11-22|03:19:42] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:19:42] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:19:42] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m42.881965703s
+TRACE[11-22|03:19:42] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:19:42] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:42] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+DEBUG[11-22|03:19:43] No discv4 seed nodes found 
+TRACE[11-22|03:19:43] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:43] New dial task                            task="discovery lookup"
+DEBUG[11-22|03:19:44] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[11-22|03:19:46] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m46.87764367s
+TRACE[11-22|03:19:46] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m46.877753253s
+TRACE[11-22|03:19:46] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m46.878030493s
+TRACE[11-22|03:19:46] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m46.878296118s
+TRACE[11-22|03:19:46] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:46] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m46.878151951s
+TRACE[11-22|03:19:46] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:19:46] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m46.879991118s
+TRACE[11-22|03:19:46] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:19:46] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:19:46] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:19:46] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+DEBUG[11-22|03:19:47] No discv4 seed nodes found 
+TRACE[11-22|03:19:47] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:47] New dial task                            task="dyndial a979fb575495b8d6 52.16.188.185:30303"
+TRACE[11-22|03:19:47] New dial task                            task="discovery lookup"
+TRACE[11-22|03:19:50]                                          msg="sending {\"jsonrpc\":\"2.0\",\"id\":9,\"method\":\"miner_start\",\"params\":[null]}"
+INFO [11-22|03:19:50] Updated mining threads                   threads=0
+INFO [11-22|03:19:50] Transaction pool price threshold updated price=18000000000
+INFO [11-22|03:19:50] Starting mining operation 
+TRACE[11-22|03:19:50]                                          msg="<-readResp: response {\"jsonrpc\":\"2.0\",\"id\":9,\"result\":null}"
+INFO [11-22|03:19:50] Commit new mining work                   number=1    txs=0 uncles=0 elapsed=1.451ms
+TRACE[11-22|03:19:50] Requiring new ethash dataset             epoch=0
+TRACE[11-22|03:19:50] Requiring new future ethash dataset      epoch=1
+DEBUG[11-22|03:19:50] Failed to load old ethash dataset        epoch=0 err="open /home/pi/.ethash/full-R23-0000000000000000: no such file or directory"
+TRACE[11-22|03:19:51] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m51.003603043s
+TRACE[11-22|03:19:51] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m51.003602887s
+TRACE[11-22|03:19:51] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m51.003654189s
+TRACE[11-22|03:19:51] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m51.0039232s
+TRACE[11-22|03:19:51] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m51.003945543s
+TRACE[11-22|03:19:51] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m51.004249762s
+TRACE[11-22|03:19:51] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:19:51] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:19:51] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:51] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:19:51] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:19:51] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+DEBUG[11-22|03:19:51] No discv4 seed nodes found 
+TRACE[11-22|03:19:51] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:51] New dial task                            task="dyndial 3f1d12044546b763 13.93.211.84:30303"
+TRACE[11-22|03:19:51] New dial task                            task="discovery lookup"
+INFO [11-22|03:19:53] Generating ethash verification cache     epoch=0 percentage=11 elapsed=3.018s
+TRACE[11-22|03:19:54] Accepted connection                      addr=10.1.1.1:56154
+TRACE[11-22|03:19:54] Accepted connection                      addr=10.1.1.1:56156
+TRACE[11-22|03:19:54] Failed RLPx handshake                    addr=10.1.1.1:56154      conn=inbound err="ecies: invalid message"
+TRACE[11-22|03:19:54] New dial task                            task="dyndial 78de8a0916848093 191.235.84.50:30303"
+DEBUG[11-22|03:19:54] Adding p2p peer                          id=efb81d7bb5468892 name=Geth/v1.6.7-stable-a... addr=10.1.1.1:56156      peers=1
+TRACE[11-22|03:19:54] Starting protocol eth/63                 id=efb81d7bb5468892 conn=inbound
+DEBUG[11-22|03:19:54] Ethereum peer connected                  id=efb81d7bb5468892 conn=inbound name=Geth/v1.6.7-stable-ab5646c5/darwin-amd64/go1.9
+TRACE[11-22|03:19:54] Registering sync peer                    peer=efb81d7bb5468892
+TRACE[11-22|03:19:55] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m55.013023615s
+TRACE[11-22|03:19:55] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:19:55] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m55.016842313s
+TRACE[11-22|03:19:55] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m55.017740854s
+TRACE[11-22|03:19:55] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m55.01842726s
+TRACE[11-22|03:19:55] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:19:55] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m55.020174083s
+TRACE[11-22|03:19:55] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m55.020655958s
+TRACE[11-22|03:19:55] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:19:55] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:19:55] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:55] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+DEBUG[11-22|03:19:55] No discv4 seed nodes found 
+TRACE[11-22|03:19:55] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:55] New dial task                            task="discovery lookup"
+INFO [11-22|03:19:56] Generating ethash verification cache     epoch=0 percentage=21 elapsed=6.019s
+INFO [11-22|03:19:56] Block synchronisation started 
+DEBUG[11-22|03:19:56] Synchronising with the network           peer=efb81d7bb5468892 eth=63 head=fa53f6…b9fd55 td=4289668081 mode=fast
+DEBUG[11-22|03:19:56] Retrieving remote chain height           peer=efb81d7bb5468892
+INFO [11-22|03:19:56] Mining aborted due to sync 
+DEBUG[11-22|03:19:56] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=1 fromhash=fa53f6…b9fd55 skip=0 reverse=false
+TRACE[11-22|03:19:56] Filtering headers                        peer=efb81d7bb5468892 headers=1
+DEBUG[11-22|03:19:56] Remote head header identified            peer=efb81d7bb5468892 number=7766 hash=fa53f6…b9fd55
+DEBUG[11-22|03:19:56] Looking for common ancestor              peer=efb81d7bb5468892 local=6528 remote=7766
+DEBUG[11-22|03:19:56] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=13 fromnum=7254 skip=15 reverse=false
+DEBUG[11-22|03:19:56] Found common ancestor                    peer=efb81d7bb5468892 number=7446 hash=0aa002…de46df
+DEBUG[11-22|03:19:56] Fast syncing until pivot block           pivot=7457
+DEBUG[11-22|03:19:56] Downloading block bodies                 origin=7447
+DEBUG[11-22|03:19:56] Directing header downloads               peer=efb81d7bb5468892 origin=7447
+DEBUG[11-22|03:19:56] Downloading transaction receipts         origin=7447
+TRACE[11-22|03:19:56] Fetching skeleton headers                peer=efb81d7bb5468892 count=192 from=7447
+DEBUG[11-22|03:19:56] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=128 fromnum=7638 skip=191 reverse=false
+TRACE[11-22|03:19:56] Filtering headers                        peer=efb81d7bb5468892 headers=1
+DEBUG[11-22|03:19:56] Filling up skeleton                      from=7447
+TRACE[11-22|03:19:56] Requesting new batch of data             peer=efb81d7bb5468892 type=headers from=7447
+DEBUG[11-22|03:19:56] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7447 skip=0   reverse=false
+TRACE[11-22|03:19:56] Pre-scheduled new headers                peer=efb81d7bb5468892 count=192 from=7447
+TRACE[11-22|03:19:56] Peer throughput measurements updated     peer=efb81d7bb5468892 hps=163.615 bps=0.000 rps=0.000 sps=0.000 miss=0 rtt=18.011734869s
+TRACE[11-22|03:19:56] Delivered new batch of data              peer=efb81d7bb5468892 type=headers count=192
+DEBUG[11-22|03:19:56] Data fetching completed                  type=headers
+DEBUG[11-22|03:19:56] Skeleton fill terminated                 err=nil
+TRACE[11-22|03:19:56] Fetching skeleton headers                peer=efb81d7bb5468892 count=192 from=7639
+DEBUG[11-22|03:19:56] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=128 fromnum=7830 skip=191 reverse=false
+TRACE[11-22|03:19:56] Fetching full headers                    peer=efb81d7bb5468892 count=192 from=7639
+DEBUG[11-22|03:19:56] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7639 skip=0   reverse=false
+TRACE[11-22|03:19:57] Scheduling new headers                   peer=efb81d7bb5468892 count=128 from=7639
+TRACE[11-22|03:19:57] Fetching full headers                    peer=efb81d7bb5468892 count=192 from=7767
+DEBUG[11-22|03:19:57] Fetching batch of headers                id=efb81d7bb5468892 conn=inbound count=192 fromnum=7767 skip=0   reverse=false
+DEBUG[11-22|03:19:57] No more headers available                peer=efb81d7bb5468892
+TRACE[11-22|03:19:57] Requiring new ethash cache               epoch=0
+TRACE[11-22|03:19:57] Requiring new future ethash cache        epoch=1
+DEBUG[11-22|03:19:57] Loaded old ethash cache from disk        epoch=0
+DEBUG[11-22|03:19:57] Loaded old ethash cache from disk        epoch=1
+DEBUG[11-22|03:19:58] Invalid header encountered               number=7566 hash=8cc90f…ed1f50 err="block in the future"
+WARN [11-22|03:19:58] Rolled back headers                      count=119 header=6528->6528 fast=7446->7446 block=0->0
+WARN [11-22|03:19:58] Fast-sync pivot locked in                number=7457 hash=f284b7…4b0781
+DEBUG[11-22|03:19:58] Header download terminated               peer=efb81d7bb5468892
+DEBUG[11-22|03:19:58] Transaction receipt download terminated  err="receipt download canceled (requested)"
+DEBUG[11-22|03:19:58] Block body download terminated           err="block body download canceled (requested)"
+DEBUG[11-22|03:19:58] Synchronisation terminated               elapsed=1.375824687s
+WARN [11-22|03:19:58] Synchronisation failed, dropping peer    peer=efb81d7bb5468892 err="retrieved hash chain is invalid"
+DEBUG[11-22|03:19:58] Removing Ethereum peer                   peer=efb81d7bb5468892
+INFO [11-22|03:19:58] Starting mining operation 
+TRACE[11-22|03:19:58] Unregistering sync peer                  peer=efb81d7bb5468892
+DEBUG[11-22|03:19:58] Ethereum message handling failed         id=efb81d7bb5468892 conn=inbound err=EOF
+DEBUG[11-22|03:19:58] Removing p2p peer                        id=efb81d7bb5468892 conn=inbound duration=3.630s peers=0 req=false err="useless peer"
+TRACE[11-22|03:19:58] New dial task                            task="dyndial 158f8aab45f6d19c 13.75.154.138:30303"
+INFO [11-22|03:19:58] Commit new mining work                   number=1    txs=0 uncles=0 elapsed=1.348ms
+TRACE[11-22|03:19:58] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h19m58.799028613s
+TRACE[11-22|03:19:58] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h19m58.799460957s
+TRACE[11-22|03:19:58] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h19m58.799039499s
+TRACE[11-22|03:19:58] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h19m58.799054447s
+TRACE[11-22|03:19:58] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:19:58] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h19m58.799277415s
+TRACE[11-22|03:19:58] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h19m58.799283301s
+TRACE[11-22|03:19:58] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:19:58] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:19:58] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:19:58] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:19:58] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+INFO [11-22|03:19:59] Generating ethash verification cache     epoch=0 percentage=30 elapsed=9.020s
+DEBUG[11-22|03:19:59] No discv4 seed nodes found 
+TRACE[11-22|03:19:59] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:19:59] New dial task                            task="dyndial 1118980bf48b0a36 52.74.57.123:30303"
+TRACE[11-22|03:19:59] New dial task                            task="discovery lookup"
+INFO [11-22|03:20:02] Generating ethash verification cache     epoch=0 percentage=40 elapsed=12.020s
+TRACE[11-22|03:20:02] Dial error                               task="dyndial a979fb575495b8d6 52.16.188.185:30303" err="dial tcp 52.16.188.185:30303: i/o timeout"
+TRACE[11-22|03:20:02] Dial task done                           task="dyndial a979fb575495b8d6 52.16.188.185:30303"
+TRACE[11-22|03:20:02] New dial task                            task="dyndial 979b7fa28feeb35a 5.1.83.226:30303"
+TRACE[11-22|03:20:02] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h20m2.819440018s
+TRACE[11-22|03:20:02] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h20m2.819799705s
+TRACE[11-22|03:20:02] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h20m2.819957153s
+TRACE[11-22|03:20:02] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h20m2.819457153s
+TRACE[11-22|03:20:02] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h20m2.819525695s
+TRACE[11-22|03:20:02] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h20m2.819757518s
+TRACE[11-22|03:20:02] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:20:02] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:20:02] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:20:02] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:20:02] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:20:02] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+DEBUG[11-22|03:20:03] No discv4 seed nodes found 
+TRACE[11-22|03:20:03] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:20:03] Skipping dial candidate                  id=a979fb575495b8d6 addr=52.16.188.185:30303 err="recently dialed"
+TRACE[11-22|03:20:03] New dial task                            task="discovery lookup"
+DEBUG[11-22|03:20:04] Recalculated downloader QoS values       rtt=20s           confidence=1.000 ttl=1m0s
+INFO [11-22|03:20:05] Generating ethash verification cache     epoch=0 percentage=50 elapsed=15.021s
+TRACE[11-22|03:20:06] Dial error                               task="dyndial 3f1d12044546b763 13.93.211.84:30303"  err="dial tcp 13.93.211.84:30303: i/o timeout"
+TRACE[11-22|03:20:06] Dial task done                           task="dyndial 3f1d12044546b763 13.93.211.84:30303"
+TRACE[11-22|03:20:06] Skipping dial candidate                  id=3f1d12044546b763 addr=13.93.211.84:30303  err="recently dialed"
+TRACE[11-22|03:20:06] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h20m6.81847986s
+TRACE[11-22|03:20:06] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h20m6.818889496s
+TRACE[11-22|03:20:06] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h20m6.818902204s
+TRACE[11-22|03:20:06] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h20m6.819160225s
+TRACE[11-22|03:20:06] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h20m6.819161683s
+TRACE[11-22|03:20:06] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h20m6.819351943s
+TRACE[11-22|03:20:06] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:20:06] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:20:06] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:20:06] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:20:06] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:20:06] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+DEBUG[11-22|03:20:07] No discv4 seed nodes found 
+TRACE[11-22|03:20:07] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:20:07] Skipping dial candidate                  id=78de8a0916848093 addr=191.235.84.50:30303 err="already dialing"
+TRACE[11-22|03:20:07] New dial task                            task="discovery lookup"
+INFO [11-22|03:20:08] Generating ethash verification cache     epoch=0 percentage=60 elapsed=18.022s
+TRACE[11-22|03:20:09] Dial error                               task="dyndial 78de8a0916848093 191.235.84.50:30303" err="dial tcp 191.235.84.50:30303: i/o timeout"
+TRACE[11-22|03:20:09] Dial task done                           task="dyndial 78de8a0916848093 191.235.84.50:30303"
+TRACE[11-22|03:20:09] Skipping dial candidate                  id=158f8aab45f6d19c addr=13.75.154.138:30303 err="already dialing"
+TRACE[11-22|03:20:10] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h20m10.803709025s
+TRACE[11-22|03:20:10] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h20m10.804284859s
+TRACE[11-22|03:20:10] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h20m10.80376965s
+TRACE[11-22|03:20:10] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h20m10.804029338s
+TRACE[11-22|03:20:10] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h20m10.804203609s
+TRACE[11-22|03:20:10] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h20m10.803738713s
+TRACE[11-22|03:20:10] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:20:10] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+TRACE[11-22|03:20:10] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:20:10] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:20:10] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:20:10] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+INFO [11-22|03:20:11] Generating ethash verification cache     epoch=0 percentage=70 elapsed=21.022s
+DEBUG[11-22|03:20:11] No discv4 seed nodes found 
+TRACE[11-22|03:20:11] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:20:11] Skipping dial candidate                  id=1118980bf48b0a36 addr=52.74.57.123:30303  err="already dialing"
+TRACE[11-22|03:20:11] New dial task                            task="discovery lookup"
+TRACE[11-22|03:20:13] Dial error                               task="dyndial 158f8aab45f6d19c 13.75.154.138:30303" err="dial tcp 13.75.154.138:30303: i/o timeout"
+TRACE[11-22|03:20:13] Dial task done                           task="dyndial 158f8aab45f6d19c 13.75.154.138:30303"
+TRACE[11-22|03:20:13] Skipping dial candidate                  id=979b7fa28feeb35a addr=5.1.83.226:30303    err="already dialing"
+INFO [11-22|03:20:14] Generating ethash verification cache     epoch=0 percentage=80 elapsed=24.025s
+TRACE[11-22|03:20:14] Dial error                               task="dyndial 1118980bf48b0a36 52.74.57.123:30303"  err="dial tcp 52.74.57.123:30303: i/o timeout"
+TRACE[11-22|03:20:14] Dial task done                           task="dyndial 1118980bf48b0a36 52.74.57.123:30303"
+TRACE[11-22|03:20:14] Skipping dial candidate                  id=a979fb575495b8d6 addr=52.16.188.185:30303 err="recently dialed"
+TRACE[11-22|03:20:14] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h20m14.80935444s
+TRACE[11-22|03:20:14] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h20m14.809878347s
+TRACE[11-22|03:20:14] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h20m14.809391368s
+TRACE[11-22|03:20:14] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h20m14.809432461s
+TRACE[11-22|03:20:14] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h20m14.809668399s
+TRACE[11-22|03:20:14] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h20m14.809675847s
+TRACE[11-22|03:20:14] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:20:14] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:20:14] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:20:14] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:20:14] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:20:14] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+DEBUG[11-22|03:20:15] No discv4 seed nodes found 
+TRACE[11-22|03:20:15] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:20:15] Skipping dial candidate                  id=3f1d12044546b763 addr=13.93.211.84:30303  err="recently dialed"
+TRACE[11-22|03:20:15] New dial task                            task="discovery lookup"
+INFO [11-22|03:20:17] Generating ethash verification cache     epoch=0 percentage=90 elapsed=27.027s
+TRACE[11-22|03:20:17] Dial error                               task="dyndial 979b7fa28feeb35a 5.1.83.226:30303"    err="dial tcp 5.1.83.226:30303: i/o timeout"
+TRACE[11-22|03:20:17] Dial task done                           task="dyndial 979b7fa28feeb35a 5.1.83.226:30303"
+TRACE[11-22|03:20:17] Skipping dial candidate                  id=78de8a0916848093 addr=191.235.84.50:30303 err="recently dialed"
+TRACE[11-22|03:20:18] Starting bonding ping/pong               id=158f8aab45f6d19c known=false failcount=0 age=419811h20m18.828375845s
+TRACE[11-22|03:20:18] Starting bonding ping/pong               id=3f1d12044546b763 known=false failcount=0 age=419811h20m18.829012824s
+TRACE[11-22|03:20:18] Starting bonding ping/pong               id=979b7fa28feeb35a known=false failcount=0 age=419811h20m18.829186574s
+TRACE[11-22|03:20:18] Starting bonding ping/pong               id=a979fb575495b8d6 known=false failcount=0 age=419811h20m18.828539803s
+TRACE[11-22|03:20:18] Starting bonding ping/pong               id=1118980bf48b0a36 known=false failcount=0 age=419811h20m18.829371783s
+TRACE[11-22|03:20:18] Starting bonding ping/pong               id=78de8a0916848093 known=false failcount=0 age=419811h20m18.828387043s
+TRACE[11-22|03:20:18] >> PING/v4                               addr=13.75.154.138:30303 err=nil
+TRACE[11-22|03:20:18] >> PING/v4                               addr=191.235.84.50:30303 err=nil
+TRACE[11-22|03:20:18] >> PING/v4                               addr=5.1.83.226:30303    err=nil
+TRACE[11-22|03:20:18] >> PING/v4                               addr=52.16.188.185:30303 err=nil
+TRACE[11-22|03:20:18] >> PING/v4                               addr=13.93.211.84:30303  err=nil
+TRACE[11-22|03:20:18] >> PING/v4                               addr=52.74.57.123:30303  err=nil
+DEBUG[11-22|03:20:19] No discv4 seed nodes found 
+TRACE[11-22|03:20:19] Dial task done                           task="discovery lookup"
+TRACE[11-22|03:20:19] Skipping dial candidate                  id=158f8aab45f6d19c addr=13.75.154.138:30303 err="recently dialed"
+TRACE[11-22|03:20:19] New dial task                            task="discovery lookup"
+INFO [11-22|03:20:20] Generated ethash verification cache      epoch=0 elapsed=29.945s
+ERROR[11-22|03:20:20] Failed to generate mapped ethash dataset epoch=0 err="cannot allocate memory"
+runtime: out of memory: cannot allocate 2147483648-byte block (290586624 in use)
+fatal error: out of memory
+
+runtime stack:
+runtime.throw(0x8fc7da, 0xd)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/panic.go:605 +0x70
+runtime.largeAlloc(0x7ffff100, 0xfe0101, 0x7411b420)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/malloc.go:829 +0xe4
+runtime.mallocgc.func1()
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/malloc.go:722 +0x38
+runtime.systemstack(0x13123500)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/asm_arm.s:264 +0x80
+runtime.mstart()
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/proc.go:1125
+
+goroutine 182 [running]:
+runtime.systemstack_switch()
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/asm_arm.s:209 +0x4 fp=0x170f1a80 sp=0x170f1a7c pc=0x64c3c
+runtime.mallocgc(0x7ffff100, 0x804810, 0xfd5c01, 0x3c8128)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/malloc.go:721 +0x6a8 fp=0x170f1adc sp=0x170f1a80 pc=0x1d480
+runtime.makeslice(0x804810, 0x1ffffc40, 0x1ffffc40, 0x146c0010, 0x2, 0x2)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/slice.go:54 +0x68 fp=0x170f1af0 sp=0x170f1adc pc=0x508e0
+runtime.makeslice64(0x804810, 0x1ffffc40, 0x0, 0x1ffffc40, 0x0, 0x2, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/slice.go:69 +0x44 fp=0x170f1b0c sp=0x170f1af0 pc=0x509ac
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate.func1()
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:285 +0x65c fp=0x170f1c90 sp=0x170f1b0c pc=0x3c8150
+sync.(*Once).Do(0x133d7398, 0x148b7cb4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/once.go:44 +0xb8 fp=0x170f1ca8 sp=0x170f1c90 pc=0x7b580
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate(0x133d7360, 0x133382e0, 0x10, 0x2, 0xfd5c00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:237 +0x64 fp=0x170f1ccc sp=0x170f1ca8 pc=0x3c3098
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).dataset(0x13298e70, 0x1, 0x0, 0x13374f40, 0xde7cacb2, 0x382da4d2)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:539 +0x504 fp=0x170f1df8 sp=0x170f1ccc pc=0x3c466c
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).mine(0x13298e70, 0x135719a0, 0x0, 0x7595fa7b, 0x71d8ac15, 0x1329e980, 0x1329e9c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:105 +0xd4 fp=0x170f1fac sp=0x170f1df8 pc=0x3c52e4
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal.func1(0x14a737f0, 0x13298e70, 0x135719a0, 0x1329e980, 0x1329e9c0, 0x0, 0x7595fa7b, 0x71d8ac15)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:72 +0x70 fp=0x170f1fcc sp=0x170f1fac pc=0x3c88d4
+runtime.goexit()
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/asm_arm.s:971 +0x4 fp=0x170f1fcc sp=0x170f1fcc pc=0x66c9c
+created by github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:70 +0x16c
+
+goroutine 1 [select]:
+github.com/ethereum/go-ethereum/console.(*Console).Interactive(0x131a2440)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/console/console.go:327 +0x1ec
+main.localConsole(0x132e0420, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/cmd/geth/consolecmd.go:106 +0x28c
+github.com/ethereum/go-ethereum/cmd/utils.MigrateFlags.func1(0x132e0420, 0x0, 0x132e0420)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/cmd/utils/flags.go:1152 +0xdc
+github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli%2ev1.HandleAction(0x7f1a00, 0x1328fcc0, 0x132e0420, 0x134f8200, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli.v1/app.go:490 +0xa8
+github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli%2ev1.Command.Run(0x8f1ff9, 0x7, 0x0, 0x0, 0x0, 0x0, 0x0, 0x941771, 0x2b, 0x0, ...)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli.v1/command.go:210 +0x768
+github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli%2ev1.(*App).Run(0x1327d0a0, 0x13184000, 0x16, 0x16, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/gopkg.in/urfave/cli.v1/app.go:255 +0x4b8
+main.main()
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:198 +0x44
+
+goroutine 20 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*nonrecursiveTree).dispatch(0x131a2240, 0x131a21c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:36 +0x11c
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.newNonrecursiveTree
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:29 +0x11c
+
+goroutine 21 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*nonrecursiveTree).internal(0x131a2240, 0x131a2200)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:81 +0x40
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.newNonrecursiveTree
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/tree_nonrecursive.go:30 +0x140
+
+goroutine 22 [syscall]:
+os/signal.signal_recv(0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sigqueue.go:131 +0x134
+os/signal.loop()
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/os/signal/signal_unix.go:22 +0x14
+created by os/signal.init.0
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/os/signal/signal_unix.go:28 +0x30
+
+goroutine 23 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rcrowley/go-metrics.(*meterArbiter).tick(0xfd5c60)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rcrowley/go-metrics/meter.go:221 +0x24
+created by github.com/ethereum/go-ethereum/vendor/github.com/rcrowley/go-metrics.NewMeter
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rcrowley/go-metrics/meter.go:40 +0x104
+
+goroutine 4 [syscall]:
+syscall.Syscall6(0xfc, 0xb, 0x131297ac, 0x1, 0xffffffff, 0x0, 0x0, 0x13172470, 0x0, 0x1)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/syscall/asm_linux_arm.s:48 +0x8
+syscall.EpollWait(0xb, 0x131297ac, 0x1, 0x1, 0xffffffff, 0x13172470, 0x0, 0x1)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/syscall/zsyscall_linux_arm.go:349 +0x50
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).loop(0x131c0000, 0x1311a2c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:193 +0x74
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:133 +0x124
+
+goroutine 34 [select, locked to thread]:
+runtime.gopark(0x9a5c14, 0x0, 0x8f1315, 0x6, 0x18, 0x1)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/proc.go:277 +0xfc
+runtime.selectgo(0x1347a7a0, 0x1329ed00)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/select.go:395 +0xec0
+runtime.ensureSigM.func1()
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/signal_unix.go:511 +0x1d8
+runtime.goexit()
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/asm_arm.s:971 +0x4
+
+goroutine 36 [select]:
+github.com/ethereum/go-ethereum/accounts/keystore.(*watcher).loop(0x13510d00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/keystore/watch.go:90 +0x3dc
+created by github.com/ethereum/go-ethereum/accounts/keystore.(*watcher).start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/keystore/watch.go:52 +0x50
+
+goroutine 5 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).send(0x131c0000, 0x1311a2c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:253 +0x9c
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:136 +0x170
+
+goroutine 6 [chan receive]:
+github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).send(0x131c0000, 0x1311a2c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:253 +0x9c
+created by github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify.(*inotify).lazyinit
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/rjeczalik/notify/watcher_inotify.go:136 +0x170
+
+goroutine 7 [select]:
+github.com/ethereum/go-ethereum/accounts/keystore.(*KeyStore).updater(0x132dd320)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/keystore/keystore.go:203 +0xcc
+created by github.com/ethereum/go-ethereum/accounts/keystore.(*KeyStore).Subscribe
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/keystore/keystore.go:190 +0xec
+
+goroutine 8 [sleep]:
+time.Sleep(0x3b9aca00, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/time.go:65 +0x124
+github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).updater(0x1354c000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:224 +0x34
+created by github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).Subscribe
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:213 +0xec
+
+goroutine 9 [sleep]:
+time.Sleep(0x3b9aca00, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/time.go:65 +0x124
+github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).updater(0x1354c0c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:224 +0x34
+created by github.com/ethereum/go-ethereum/accounts/usbwallet.(*Hub).Subscribe
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/usbwallet/hub.go:213 +0xec
+
+goroutine 10 [select]:
+github.com/ethereum/go-ethereum/accounts.(*Manager).update(0x1353c100)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/manager.go:95 +0x148
+created by github.com/ethereum/go-ethereum/accounts.NewManager
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/accounts/manager.go:68 +0x490
+
+goroutine 11 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.(*BufferPool).drain(0x131102c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:206 +0x120
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.NewBufferPool
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:237 +0x15c
+
+goroutine 37 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).compactionError(0x13572000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:90 +0xb8
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:139 +0x3bc
+
+goroutine 38 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mpoolDrain(0x13572000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_state.go:101 +0xe8
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:140 +0x3d8
+
+goroutine 39 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).tCompaction(0x13572000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:804 +0x1e8
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:146 +0x4e0
+
+goroutine 40 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mCompaction(0x13572000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:751 +0x128
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:147 +0x4fc
+
+goroutine 41 [select]:
+github.com/ethereum/go-ethereum/core.(*ChainIndexer).updateLoop(0x1329ca00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/core/chain_indexer.go:240 +0xdc
+created by github.com/ethereum/go-ethereum/core.NewChainIndexer
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/core/chain_indexer.go:98 +0x1dc
+
+goroutine 42 [select]:
+github.com/ethereum/go-ethereum/core.(*BlockChain).update(0x145c2000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/core/blockchain.go:1196 +0xcc
+created by github.com/ethereum/go-ethereum/core.NewBlockChain
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/core/blockchain.go:171 +0xc74
+
+goroutine 43 [select]:
+github.com/ethereum/go-ethereum/core.(*ChainIndexer).eventLoop(0x1329ca00, 0x13503600, 0x1328fed8)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/core/chain_indexer.go:166 +0x1fc
+created by github.com/ethereum/go-ethereum/core.(*ChainIndexer).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/core/chain_indexer.go:107 +0x3c
+
+goroutine 44 [select]:
+github.com/ethereum/go-ethereum/core.(*TxPool).loop(0x132bc000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/core/tx_pool.go:273 +0x284
+created by github.com/ethereum/go-ethereum/core.NewTxPool
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/core/tx_pool.go:245 +0x488
+
+goroutine 45 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*Downloader).qosTuner(0x132bc120)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:1531 +0x318
+created by github.com/ethereum/go-ethereum/eth/downloader.New
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:231 +0x860
+
+goroutine 46 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*Downloader).stateFetcher(0x132bc120)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/downloader/statesync.go:76 +0x100
+created by github.com/ethereum/go-ethereum/eth/downloader.New
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/downloader/downloader.go:232 +0x87c
+
+goroutine 47 [select]:
+github.com/ethereum/go-ethereum/miner.(*worker).update(0x132b4000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/worker.go:250 +0x240
+created by github.com/ethereum/go-ethereum/miner.newWorker
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/worker.go:153 +0x434
+
+goroutine 48 [chan receive]:
+github.com/ethereum/go-ethereum/miner.(*worker).wait(0x132b4000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/worker.go:288 +0x234
+created by github.com/ethereum/go-ethereum/miner.newWorker
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/worker.go:155 +0x450
+
+goroutine 16 [select]:
+github.com/ethereum/go-ethereum/p2p/nat.Map(0xefea08, 0x13288f60, 0x1329eb40, 0x8ee457, 0x3, 0x765f, 0x765f, 0x90be2c, 0x12)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:114 +0x340
+created by github.com/ethereum/go-ethereum/p2p/discover.newUDP
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:243 +0x3c0
+
+goroutine 27 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.(*BufferPool).drain(0x132e09a0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:206 +0x120
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util.NewBufferPool
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/util/buffer_pool.go:237 +0x15c
+
+goroutine 248 [semacquire]:
+sync.runtime_SemacquireMutex(0x133d739c, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:71 +0x2c
+sync.(*Mutex).Lock(0x133d7398)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/mutex.go:134 +0x178
+sync.(*Once).Do(0x133d7398, 0x133c04b4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/once.go:40 +0x40
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate(0x133d7360, 0x133382e0, 0x10, 0x2, 0x13324f00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:237 +0x64
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).dataset(0x13298e70, 0x1, 0x0, 0x133c0740, 0xbff79a36, 0xbea36678)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:539 +0x504
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).mine(0x13298e70, 0x131a01e0, 0x3, 0x972f24fb, 0x61e69d92, 0x14957940, 0x14957980)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:105 +0xd4
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal.func1(0x146614b0, 0x13298e70, 0x131a01e0, 0x14957940, 0x14957980, 0x3, 0x972f24fb, 0x61e69d92)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:72 +0x70
+created by github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:70 +0x16c
+
+goroutine 66 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).compactionError(0x13572100)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:90 +0xb8
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:139 +0x3bc
+
+goroutine 67 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mpoolDrain(0x13572100)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_state.go:101 +0xe8
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:140 +0x3d8
+
+goroutine 68 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).tCompaction(0x13572100)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:804 +0x1e8
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:146 +0x4e0
+
+goroutine 69 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.(*DB).mCompaction(0x13572100)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db_compaction.go:751 +0x128
+created by github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb.openDB
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/syndtr/goleveldb/leveldb/db.go:147 +0x4fc
+
+goroutine 70 [select]:
+github.com/ethereum/go-ethereum/p2p/discover.(*Table).refreshLoop(0x132da900)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:326 +0x158
+created by github.com/ethereum/go-ethereum/p2p/discover.newTable
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/table.go:116 +0x304
+
+goroutine 71 [select]:
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).loop(0x13202680)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:375 +0x4a0
+created by github.com/ethereum/go-ethereum/p2p/discover.newUDP
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:258 +0x250
+
+goroutine 72 [IO wait]:
+internal/poll.runtime_pollWait(0x754affb8, 0x72, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/netpoll.go:173 +0x44
+internal/poll.(*pollDesc).wait(0x131a0154, 0x72, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:85 +0x8c
+internal/poll.(*pollDesc).waitRead(0x131a0154, 0x13488000, 0x500, 0x500)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:90 +0x2c
+internal/poll.(*FD).ReadFrom(0x131a0140, 0x13488000, 0x500, 0x500, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_unix.go:169 +0x134
+net.(*netFD).readFrom(0x131a0140, 0x13488000, 0x500, 0x500, 0x1d050, 0x508e0, 0x1, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/fd_unix.go:208 +0x38
+net.(*UDPConn).readFrom(0x1328e060, 0x13488000, 0x500, 0x500, 0x132880e8, 0x4a2808, 0x132880dc, 0x13478790)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/udpsock_posix.go:47 +0x38
+net.(*UDPConn).ReadFromUDP(0x1328e060, 0x13488000, 0x500, 0x500, 0x500, 0x500, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/udpsock.go:106 +0x58
+github.com/ethereum/go-ethereum/p2p/discover.(*udp).readLoop(0x13202680)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:502 +0xa4
+created by github.com/ethereum/go-ethereum/p2p/discover.newUDP
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:259 +0x26c
+
+goroutine 73 [IO wait]:
+internal/poll.runtime_pollWait(0x754aff40, 0x72, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/netpoll.go:173 +0x44
+internal/poll.(*pollDesc).wait(0x1352e154, 0x72, 0x13258e00, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:85 +0x8c
+internal/poll.(*pollDesc).waitRead(0x1352e154, 0xffffff00, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:90 +0x2c
+internal/poll.(*FD).Accept(0x1352e140, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_unix.go:334 +0x174
+net.(*netFD).accept(0x1352e140, 0x41918, 0x4195c, 0x4cf014)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/fd_unix.go:238 +0x20
+net.(*TCPListener).accept(0x1350a2f0, 0x13258f64, 0x4cf028, 0x1329e940)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/tcpsock_posix.go:136 +0x20
+net.(*TCPListener).Accept(0x1350a2f0, 0x0, 0x13556140, 0xf00a80, 0x146cc068)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/tcpsock.go:247 +0x3c
+github.com/ethereum/go-ethereum/p2p.(*Server).listenLoop(0x13556140)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/server.go:665 +0x198
+created by github.com/ethereum/go-ethereum/p2p.(*Server).startListening
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/server.go:443 +0x10c
+
+goroutine 74 [select]:
+github.com/ethereum/go-ethereum/p2p/nat.Map(0xefea08, 0x13288f60, 0x1329e480, 0x8ee44b, 0x3, 0x765f, 0x765f, 0x8fa101, 0xc)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/nat/nat.go:114 +0x340
+github.com/ethereum/go-ethereum/p2p.(*Server).startListening.func1(0x13556140, 0x1330df00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/server.go:448 +0x60
+created by github.com/ethereum/go-ethereum/p2p.(*Server).startListening
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/server.go:447 +0x190
+
+goroutine 75 [select]:
+github.com/ethereum/go-ethereum/p2p.(*Server).run(0x13556140, 0xefe9b8, 0x131a4840)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/server.go:512 +0x420
+created by github.com/ethereum/go-ethereum/p2p.(*Server).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/server.go:428 +0x5d8
+
+goroutine 76 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 77 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 78 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 79 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 80 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 81 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 82 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 83 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 84 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 85 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 86 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 87 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 88 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 89 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 90 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 91 [select]:
+github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers.func1(0x132dc240)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:55 +0x2b8
+created by github.com/ethereum/go-ethereum/eth.(*Ethereum).startBloomHandlers
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/bloombits.go:53 +0x38
+
+goroutine 92 [select]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).txBroadcastLoop(0x1319f200)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/handler.go:736 +0x128
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/handler.go:211 +0xb0
+
+goroutine 93 [chan receive]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).minedBroadcastLoop(0x1319f200)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/handler.go:725 +0x40
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/handler.go:215 +0x128
+
+goroutine 94 [select]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).syncer(0x1319f200)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/sync.go:145 +0x174
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/handler.go:218 +0x144
+
+goroutine 95 [select]:
+github.com/ethereum/go-ethereum/eth.(*ProtocolManager).txsyncLoop(0x1319f200)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/sync.go:109 +0x1c8
+created by github.com/ethereum/go-ethereum/eth.(*ProtocolManager).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/handler.go:219 +0x160
+
+goroutine 96 [select]:
+github.com/ethereum/go-ethereum/contracts/release.(*ReleaseService).checker(0x13202600)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/contracts/release/release.go:118 +0x118
+created by github.com/ethereum/go-ethereum/contracts/release.(*ReleaseService).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/contracts/release/release.go:98 +0x2c
+
+goroutine 97 [select]:
+github.com/ethereum/go-ethereum/eth/downloader.(*PublicDownloaderAPI).eventLoop(0x13511260)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/downloader/api.go:63 +0x1fc
+created by github.com/ethereum/go-ethereum/eth/downloader.NewPublicDownloaderAPI
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/downloader/api.go:49 +0xd4
+
+goroutine 98 [select]:
+github.com/ethereum/go-ethereum/eth/filters.(*EventSystem).eventLoop(0x1330dfa0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/filters/filter_system.go:426 +0x628
+created by github.com/ethereum/go-ethereum/eth/filters.NewEventSystem
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/filters/filter_system.go:112 +0xf0
+
+goroutine 99 [chan receive]:
+github.com/ethereum/go-ethereum/eth/filters.(*PublicFilterAPI).timeoutLoop(0x13288990)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/filters/api.go:82 +0xe8
+created by github.com/ethereum/go-ethereum/eth/filters.NewPublicFilterAPI
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/filters/api.go:72 +0x170
+
+goroutine 114 [select]:
+github.com/ethereum/go-ethereum/eth/fetcher.(*Fetcher).loop(0x132990a0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/fetcher/fetcher.go:316 +0x6f4
+created by github.com/ethereum/go-ethereum/eth/fetcher.(*Fetcher).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/eth/fetcher/fetcher.go:178 +0x2c
+
+goroutine 100 [IO wait]:
+internal/poll.runtime_pollWait(0x754afec8, 0x72, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/netpoll.go:173 +0x44
+internal/poll.(*pollDesc).wait(0x13d8d824, 0x72, 0x1325fe00, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:85 +0x8c
+internal/poll.(*pollDesc).waitRead(0x13d8d824, 0xffffff00, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:90 +0x2c
+internal/poll.(*FD).Accept(0x13d8d810, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_unix.go:334 +0x174
+net.(*netFD).accept(0x13d8d810, 0xacf1b384, 0xbe7d590f, 0xbe87b466)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/fd_unix.go:238 +0x20
+net.(*UnixListener).accept(0x131598a0, 0x134da2c0, 0x3d, 0x3)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/unixsock_posix.go:162 +0x20
+net.(*UnixListener).Accept(0x131598a0, 0x3d, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/unixsock.go:241 +0x3c
+github.com/ethereum/go-ethereum/node.(*Node).startIPC.func1(0x13556000, 0xefd9e0, 0x131598a0, 0x13179f80)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/node/node.go:323 +0xac
+created by github.com/ethereum/go-ethereum/node.(*Node).startIPC
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/node/node.go:319 +0x1c0
+
+goroutine 101 [IO wait]:
+internal/poll.runtime_pollWait(0x754afe50, 0x72, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/netpoll.go:173 +0x44
+internal/poll.(*pollDesc).wait(0x133d62e4, 0x72, 0x13253e00, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:85 +0x8c
+internal/poll.(*pollDesc).waitRead(0x133d62e4, 0xffffff00, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:90 +0x2c
+internal/poll.(*FD).Accept(0x133d62d0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_unix.go:334 +0x174
+net.(*netFD).accept(0x133d62d0, 0x102824, 0x20, 0x896120)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/fd_unix.go:238 +0x20
+net.(*TCPListener).accept(0x13d7f568, 0x2cff58, 0x896120, 0x1328ac80)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/tcpsock_posix.go:136 +0x20
+net.(*TCPListener).Accept(0x13d7f568, 0x1317e010, 0x821158, 0xed5b98, 0x8ddab0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/tcpsock.go:247 +0x3c
+net/http.(*Server).Serve(0x1319ec00, 0xefd9c0, 0x13d7f568, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/http/server.go:2695 +0x150
+created by github.com/ethereum/go-ethereum/node.(*Node).startHTTP
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/node/node.go:389 +0x308
+
+goroutine 102 [chan receive]:
+github.com/ethereum/go-ethereum/cmd/utils.StartNode.func1(0x13556000)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/cmd/utils/cmd.go:69 +0xac
+created by github.com/ethereum/go-ethereum/cmd/utils.StartNode
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/cmd/utils/cmd.go:65 +0x8c
+
+goroutine 113 [select]:
+net.(*Resolver).LookupIPAddr(0xfd3710, 0xefe620, 0x1317e010, 0x90518e, 0xc, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/lookup.go:196 +0x3a8
+net.(*Resolver).internetAddrList(0xfd3710, 0xefe620, 0x1317e010, 0x8ee457, 0x3, 0x90518e, 0x10, 0x0, 0x16f4f0, 0x16f4c0, ...)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/ipsock.go:293 +0x428
+net.ResolveUDPAddr(0x8ee457, 0x3, 0x90518e, 0x10, 0x40, 0x40, 0x1)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/udpsock.go:79 +0x70
+github.com/ethereum/go-ethereum/p2p/discover.sntpDrift(0x3, 0x0, 0x0, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/ntp.go:67 +0x60
+github.com/ethereum/go-ethereum/p2p/discover.checkClockDrift()
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/ntp.go:47 +0x1c
+created by github.com/ethereum/go-ethereum/p2p/discover.(*udp).loop
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/discover/udp.go:422 +0x574
+
+goroutine 280 [IO wait]:
+internal/poll.runtime_pollWait(0x754afdd8, 0x72, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/netpoll.go:173 +0x44
+internal/poll.(*pollDesc).wait(0x135701a4, 0x72, 0xffffff00, 0xef97a8, 0xef689c)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:85 +0x8c
+internal/poll.(*pollDesc).waitRead(0x135701a4, 0x16a84200, 0x200, 0x200)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:90 +0x2c
+internal/poll.(*FD).Read(0x13570190, 0x16a84200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_unix.go:125 +0x148
+net.(*netFD).Read(0x13570190, 0x16a84200, 0x200, 0x200, 0x25, 0x0, 0x17e1c0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/fd_unix.go:202 +0x38
+net.(*conn).Read(0x147ee070, 0x16a84200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/net.go:176 +0x58
+net.(*dnsPacketConn).dnsRoundTrip(0x147ee078, 0x146e0180, 0x8b5b9c42, 0xc, 0xfd5cf8)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:57 +0xb4
+net.(*Resolver).exchange(0xfd3710, 0xefe620, 0x1317e010, 0x14a73560, 0xf, 0x14ac57c0, 0x14, 0x1, 0x2a05f200, 0x1, ...)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:138 +0x3b8
+net.(*Resolver).tryOneName(0xfd3710, 0xefe620, 0x1317e010, 0x14a7e7e0, 0x14ac57c0, 0x14, 0x1, 0xb981811, 0x360a8bf4, 0x4babd40, ...)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:161 +0xf8
+net.(*Resolver).goLookupIPCNAMEOrder.func1(0xfd3710, 0xefe620, 0x1317e010, 0x14a7e7e0, 0x14a6f828, 0x14a74680, 0x14a60001)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:483 +0x50
+created by net.(*Resolver).goLookupIPCNAMEOrder
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:482 +0x190
+
+goroutine 178 [chan receive]:
+net.(*Resolver).goLookupIPCNAMEOrder(0xfd3710, 0xefe620, 0x1317e010, 0x90518e, 0xc, 0x1, 0x0, 0x14, 0x18, 0x14a621c0, ...)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:489 +0x254
+net.(*Resolver).lookupIP(0xfd3710, 0xefe620, 0x1317e010, 0x90518e, 0xc, 0x66c9c, 0x4a41c4, 0x20, 0x867628, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/lookup_unix.go:101 +0x74
+net.(*Resolver).(net.lookupIP)-fm(0xefe620, 0x1317e010, 0x90518e, 0xc, 0xf744dbd6, 0xf7d3150, 0x4cbf2246, 0x5d36a32a, 0x84c2f76a)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/lookup.go:187 +0x3c
+net.glob..func10(0xefe620, 0x1317e010, 0x14a6f790, 0x90518e, 0xc, 0x7734f127, 0xcbb0bc9f, 0x1631336d, 0x3c, 0x14a621c0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/hook.go:19 +0x3c
+net.(*Resolver).LookupIPAddr.func1(0x50f744db, 0x460f7d31, 0x66c9c, 0x3)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/lookup.go:193 +0x48
+internal/singleflight.(*Group).doCall(0xfd3d50, 0x14a8df50, 0x90518e, 0xc, 0x14a66520)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/singleflight/singleflight.go:93 +0x1c
+created by internal/singleflight.(*Group).DoChan
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/singleflight/singleflight.go:86 +0x290
+
+goroutine 134 [semacquire]:
+sync.runtime_notifyListWait(0x133c652c, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:507 +0x140
+sync.(*Cond).Wait(0x133c6524)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/cond.go:56 +0x6c
+io.(*pipe).read(0x133c6500, 0x24678000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/io/pipe.go:47 +0xa0
+io.(*PipeReader).Read(0x1350b878, 0x24678000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/io/pipe.go:130 +0x38
+encoding/json.(*Decoder).refill(0x1323c2d0, 0x0, 0x2bf00)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:152 +0xe0
+encoding/json.(*Decoder).readValue(0x1323c2d0, 0x0, 0x0, 0x37106c)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:128 +0x208
+encoding/json.(*Decoder).Decode(0x1323c2d0, 0x836390, 0x13511550, 0x61fe4, 0x1327b440)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:57 +0x54
+github.com/ethereum/go-ethereum/rpc.(*Client).read.func1(0x13511568, 0x1323c2d0, 0x1350b8a8, 0x75473848, 0x1350b8a8)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:641 +0x58
+github.com/ethereum/go-ethereum/rpc.(*Client).read(0x134f0700, 0xf00b28, 0x1350b8a8, 0x18, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:654 +0x104
+created by github.com/ethereum/go-ethereum/rpc.(*Client).dispatch
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:476 +0x40
+
+goroutine 133 [select]:
+github.com/ethereum/go-ethereum/rpc.(*Client).dispatch(0x134f0700, 0xf00b28, 0x1350b8a8)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:500 +0x2f4
+created by github.com/ethereum/go-ethereum/rpc.newClient
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:203 +0x2cc
+
+goroutine 297 [sleep]:
+time.Sleep(0xcac02113, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/time.go:65 +0x124
+github.com/ethereum/go-ethereum/p2p.(*discoverTask).Do(0x2461a0c0, 0x13556140)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/dial.go:359 +0x1a8
+github.com/ethereum/go-ethereum/p2p.(*Server).run.func2.1(0xef7d08, 0x2461a0c0, 0x13556140, 0x13202cc0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/server.go:493 +0x2c
+created by github.com/ethereum/go-ethereum/p2p.(*Server).run.func2
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/p2p/server.go:493 +0x104
+
+goroutine 132 [semacquire]:
+sync.runtime_notifyListWait(0x133c64ac, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:507 +0x140
+sync.(*Cond).Wait(0x133c64a4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/cond.go:56 +0x6c
+io.(*pipe).read(0x133c6480, 0x24678200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/io/pipe.go:47 +0xa0
+io.(*PipeReader).Read(0x1350b840, 0x24678200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/io/pipe.go:130 +0x38
+encoding/json.(*Decoder).refill(0x1323c1e0, 0x0, 0x145e0500)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:152 +0xe0
+encoding/json.(*Decoder).readValue(0x1323c1e0, 0x0, 0x0, 0x367ab0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:128 +0x208
+encoding/json.(*Decoder).Decode(0x1323c1e0, 0x836390, 0x13511590, 0x3, 0x2)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:57 +0x54
+github.com/ethereum/go-ethereum/rpc.(*jsonCodec).ReadRequestHeaders(0x13289aa0, 0x0, 0x0, 0x0, 0x1de00, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/json.go:126 +0xa4
+github.com/ethereum/go-ethereum/rpc.(*Server).readRequest(0x1348c1e0, 0xf00e38, 0x13289aa0, 0x1, 0x8877a0, 0x13289b30, 0xefe670, 0x13159180, 0x1327b440)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/server.go:378 +0x34
+github.com/ethereum/go-ethereum/rpc.(*Server).serveRequest(0x1348c1e0, 0xf00e38, 0x13289aa0, 0x6dcbb000, 0x3, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/server.go:162 +0x224
+github.com/ethereum/go-ethereum/rpc.(*Server).ServeCodec(0x1348c1e0, 0xf00e38, 0x13289aa0, 0x3)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/server.go:218 +0x68
+created by github.com/ethereum/go-ethereum/rpc.DialInProc.func1
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/inproc.go:29 +0x26c
+
+goroutine 116 [chan receive]:
+main.startNode.func1(0x13556000, 0x13538c80)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:250 +0x238
+created by main.startNode
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/cmd/geth/main.go:235 +0x1e0
+
+goroutine 117 [semacquire]:
+sync.runtime_notifyListWait(0x1331daac, 0x9)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:507 +0x140
+sync.(*Cond).Wait(0x1331daa4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/cond.go:56 +0x6c
+io.(*pipe).read(0x1331da80, 0x13114601, 0x5ff, 0x5ff, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/io/pipe.go:47 +0xa0
+io.(*PipeReader).Read(0x1328f9f0, 0x13114601, 0x5ff, 0x5ff, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/io/pipe.go:130 +0x38
+encoding/json.(*Decoder).refill(0x132c0000, 0x7b4e0a, 0x9)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:152 +0xe0
+encoding/json.(*Decoder).readValue(0x132c0000, 0x0, 0x0, 0x367ab0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:128 +0x208
+encoding/json.(*Decoder).Decode(0x132c0000, 0x836390, 0x14897590, 0x6, 0x8)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:57 +0x54
+github.com/ethereum/go-ethereum/rpc.(*jsonCodec).ReadRequestHeaders(0x134f8c60, 0x0, 0x0, 0x0, 0x823700, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/json.go:126 +0xa4
+github.com/ethereum/go-ethereum/rpc.(*Server).readRequest(0x1348c1e0, 0xf00e38, 0x134f8c60, 0x1348c1e0, 0x1310e590, 0xf00e38, 0x134f8c60, 0x14889418, 0x1)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/server.go:378 +0x34
+github.com/ethereum/go-ethereum/rpc.(*Server).serveRequest(0x1348c1e0, 0xf00e38, 0x134f8c60, 0x5adfe200, 0x3, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/server.go:162 +0x224
+github.com/ethereum/go-ethereum/rpc.(*Server).ServeCodec(0x1348c1e0, 0xf00e38, 0x134f8c60, 0x3)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/server.go:218 +0x68
+created by github.com/ethereum/go-ethereum/rpc.DialInProc.func1
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/inproc.go:29 +0x26c
+
+goroutine 118 [select]:
+github.com/ethereum/go-ethereum/rpc.(*Client).dispatch(0x13538d40, 0xf00b28, 0x1328fa20)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:500 +0x2f4
+created by github.com/ethereum/go-ethereum/rpc.newClient
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:203 +0x2cc
+
+goroutine 119 [select]:
+github.com/ethereum/go-ethereum/internal/jsre.(*JSRE).runEventLoop(0x13178f20)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/internal/jsre/jsre.go:177 +0x418
+created by github.com/ethereum/go-ethereum/internal/jsre.New
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/internal/jsre/jsre.go:78 +0x110
+
+goroutine 120 [semacquire]:
+sync.runtime_notifyListWait(0x1331db2c, 0x9)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:507 +0x140
+sync.(*Cond).Wait(0x1331db24)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/cond.go:56 +0x6c
+io.(*pipe).read(0x1331db00, 0x13114c01, 0x5ff, 0x5ff, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/io/pipe.go:47 +0xa0
+io.(*PipeReader).Read(0x1328fa08, 0x13114c01, 0x5ff, 0x5ff, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/io/pipe.go:130 +0x38
+encoding/json.(*Decoder).refill(0x132c00f0, 0x63b0a, 0x9)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:152 +0xe0
+encoding/json.(*Decoder).readValue(0x132c00f0, 0x0, 0x0, 0x37106c)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:128 +0x208
+encoding/json.(*Decoder).Decode(0x132c00f0, 0x836390, 0x13225d80, 0x7b3a58, 0x1311b9b0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/encoding/json/stream.go:57 +0x54
+github.com/ethereum/go-ethereum/rpc.(*Client).read.func1(0x1311b980, 0x13139fc8, 0x1, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:641 +0x58
+github.com/ethereum/go-ethereum/rpc.(*Client).read(0x13538d40, 0xf00b28, 0x1328fa20, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:654 +0x104
+created by github.com/ethereum/go-ethereum/rpc.(*Client).dispatch
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/rpc/client.go:476 +0x40
+
+goroutine 128 [select]:
+github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).readNext(0x132c02d0, 0x9a5001, 0x132c02d0, 0x148b8d34, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/input.go:137 +0x160
+github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).PromptWithSuggestion(0x132c02d0, 0x8edcc6, 0x2, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/line.go:637 +0x5dc
+github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).Prompt(0x132c02d0, 0x8edcc6, 0x2, 0x13d87154, 0x13d7b230, 0x13d7b200, 0x6c2154)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/line.go:581 +0x40
+github.com/ethereum/go-ethereum/console.(*terminalPrompter).PromptInput(0x1330dcc0, 0x8edcc6, 0x2, 0x0, 0x0, 0x0, 0x0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/console/prompter.go:116 +0x9c
+github.com/ethereum/go-ethereum/console.(*Console).Interactive.func1(0x131a2440, 0x13d7b200, 0x149adc60, 0x14a1e51c, 0x149adc68)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/console/console.go:304 +0x5c
+created by github.com/ethereum/go-ethereum/console.(*Console).Interactive
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/console/console.go:301 +0xcc
+
+goroutine 181 [semacquire]:
+sync.runtime_Semacquire(0x14a737fc)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:56 +0x2c
+sync.(*WaitGroup).Wait(0x14a737f0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/waitgroup.go:131 +0x88
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal(0x13298e70, 0xefff58, 0x145c2000, 0x135719a0, 0x1329e440, 0x0, 0xacda532d, 0x3)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:91 +0x2e4
+github.com/ethereum/go-ethereum/miner.(*CpuAgent).mine(0x13288d20, 0x14ace5a0, 0x1329e440)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/agent.go:103 +0x50
+created by github.com/ethereum/go-ethereum/miner.(*CpuAgent).update
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/agent.go:88 +0x38
+
+goroutine 155 [syscall]:
+syscall.Syscall(0x3, 0x0, 0x13474000, 0x1000, 0x0, 0x1, 0x9d54c)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/syscall/asm_linux_arm.s:17 +0x8
+syscall.read(0x0, 0x13474000, 0x1000, 0x1000, 0x13254e01, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/syscall/zsyscall_linux_arm.go:756 +0x3c
+syscall.Read(0x0, 0x13474000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/syscall/syscall_unix.go:162 +0x34
+internal/poll.(*FD).Read(0x13182000, 0x13474000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_unix.go:121 +0xec
+os.(*File).read(0x131740c0, 0x13474000, 0x1000, 0x1000, 0xf9a27819, 0x506abf0d, 0xab3b4a2a)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/os/file_unix.go:216 +0x3c
+os.(*File).Read(0x131740c0, 0x13474000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/os/file.go:103 +0x4c
+bufio.(*Reader).fill(0x13289a10)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/bufio/bufio.go:97 +0x104
+bufio.(*Reader).ReadRune(0x13289a10, 0xb1f36737, 0x338e9eea, 0xe911a74c, 0x5adfe2f8)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/bufio/bufio.go:270 +0x1c
+github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).restartPrompt.func1(0x132c02d0, 0x14accb00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/input.go:94 +0x20
+created by github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner.(*State).restartPrompt
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/vendor/github.com/peterh/liner/input.go:91 +0x50
+
+goroutine 242 [select]:
+github.com/ethereum/go-ethereum/miner.(*CpuAgent).update(0x13288d20)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/agent.go:81 +0xe4
+created by github.com/ethereum/go-ethereum/miner.(*CpuAgent).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/agent.go:75 +0x5c
+
+goroutine 183 [semacquire]:
+sync.runtime_SemacquireMutex(0x133d739c, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:71 +0x2c
+sync.(*Mutex).Lock(0x133d7398)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/mutex.go:134 +0x178
+sync.(*Once).Do(0x133d7398, 0x133c14b4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/once.go:40 +0x40
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate(0x133d7360, 0x133382e0, 0x10, 0x2, 0x13324f00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:237 +0x64
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).dataset(0x13298e70, 0x1, 0x0, 0x133c1740, 0xde7cacb2, 0x382da4d2)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:539 +0x504
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).mine(0x13298e70, 0x135719a0, 0x1, 0x727c8a29, 0x49a9afb6, 0x1329e980, 0x1329e9c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:105 +0xd4
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal.func1(0x14a737f0, 0x13298e70, 0x135719a0, 0x1329e980, 0x1329e9c0, 0x1, 0x727c8a29, 0x49a9afb6)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:72 +0x70
+created by github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:70 +0x16c
+
+goroutine 184 [semacquire]:
+sync.runtime_SemacquireMutex(0x133d739c, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:71 +0x2c
+sync.(*Mutex).Lock(0x133d7398)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/mutex.go:134 +0x178
+sync.(*Once).Do(0x133d7398, 0x133c1cb4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/once.go:40 +0x40
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate(0x133d7360, 0x133382e0, 0x10, 0x2, 0x13324f00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:237 +0x64
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).dataset(0x13298e70, 0x1, 0x0, 0x133c1f40, 0xde7cacb2, 0x382da4d2)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:539 +0x504
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).mine(0x13298e70, 0x135719a0, 0x2, 0x22976a09, 0x72815c84, 0x1329e980, 0x1329e9c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:105 +0xd4
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal.func1(0x14a737f0, 0x13298e70, 0x135719a0, 0x1329e980, 0x1329e9c0, 0x2, 0x22976a09, 0x72815c84)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:72 +0x70
+created by github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:70 +0x16c
+
+goroutine 185 [semacquire]:
+sync.runtime_SemacquireMutex(0x133d739c, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:71 +0x2c
+sync.(*Mutex).Lock(0x133d7398)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/mutex.go:134 +0x178
+sync.(*Once).Do(0x133d7398, 0x133c24b4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/once.go:40 +0x40
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate(0x133d7360, 0x133382e0, 0x10, 0x2, 0x13324f00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:237 +0x64
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).dataset(0x13298e70, 0x1, 0x0, 0x133c2740, 0xde7cacb2, 0x382da4d2)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:539 +0x504
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).mine(0x13298e70, 0x135719a0, 0x3, 0x26aa4e09, 0x1882e978, 0x1329e980, 0x1329e9c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:105 +0xd4
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal.func1(0x14a737f0, 0x13298e70, 0x135719a0, 0x1329e980, 0x1329e9c0, 0x3, 0x26aa4e09, 0x1882e978)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:72 +0x70
+created by github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:70 +0x16c
+
+goroutine 243 [select]:
+github.com/ethereum/go-ethereum/miner.(*RemoteAgent).loop(0x1352e1e0, 0x146b8500, 0x149577c0)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/remote_agent.go:176 +0x30c
+created by github.com/ethereum/go-ethereum/miner.(*RemoteAgent).Start
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/remote_agent.go:86 +0xdc
+
+goroutine 281 [IO wait]:
+internal/poll.runtime_pollWait(0x754afd60, 0x72, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/netpoll.go:173 +0x44
+internal/poll.(*pollDesc).wait(0x13570064, 0x72, 0xffffff00, 0xef97a8, 0xef689c)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:85 +0x8c
+internal/poll.(*pollDesc).waitRead(0x13570064, 0x16a84000, 0x200, 0x200)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_poll_runtime.go:90 +0x2c
+internal/poll.(*FD).Read(0x13570050, 0x16a84000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/internal/poll/fd_unix.go:125 +0x148
+net.(*netFD).Read(0x13570050, 0x16a84000, 0x200, 0x200, 0x25, 0x0, 0x17e1c0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/fd_unix.go:202 +0x38
+net.(*conn).Read(0x147ee028, 0x16a84000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/net.go:176 +0x58
+net.(*dnsPacketConn).dnsRoundTrip(0x147ee030, 0x146e0080, 0x8b55a320, 0xc, 0xfd5cf8)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:57 +0xb4
+net.(*Resolver).exchange(0xfd3710, 0xefe620, 0x1317e010, 0x14a73560, 0xf, 0x14ac57c0, 0x14, 0x5d18001c, 0x2a05f200, 0x1, ...)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:138 +0x3b8
+net.(*Resolver).tryOneName(0xfd3710, 0xefe620, 0x1317e010, 0x14a7e7e0, 0x14ac57c0, 0x14, 0x5776001c, 0x4121d3f, 0x63b74645, 0x4a9dd542, ...)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:161 +0xf8
+net.(*Resolver).goLookupIPCNAMEOrder.func1(0xfd3710, 0xefe620, 0x1317e010, 0x14a7e7e0, 0x14a6f828, 0x14a74680, 0x14a6001c)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:483 +0x50
+created by net.(*Resolver).goLookupIPCNAMEOrder
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/net/dnsclient_unix.go:482 +0x190
+
+goroutine 245 [semacquire]:
+sync.runtime_SemacquireMutex(0x133d739c, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:71 +0x2c
+sync.(*Mutex).Lock(0x133d7398)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/mutex.go:134 +0x178
+sync.(*Once).Do(0x133d7398, 0x145e1cb4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/once.go:40 +0x40
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate(0x133d7360, 0x133382e0, 0x10, 0x2, 0x13324f00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:237 +0x64
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).dataset(0x13298e70, 0x1, 0x0, 0x145e1f40, 0xbff79a36, 0xbea36678)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:539 +0x504
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).mine(0x13298e70, 0x131a01e0, 0x0, 0x18b5d70b, 0x1563f152, 0x14957940, 0x14957980)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:105 +0xd4
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal.func1(0x146614b0, 0x13298e70, 0x131a01e0, 0x14957940, 0x14957980, 0x0, 0x18b5d70b, 0x1563f152)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:72 +0x70
+created by github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:70 +0x16c
+
+goroutine 246 [semacquire]:
+sync.runtime_SemacquireMutex(0x133d739c, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:71 +0x2c
+sync.(*Mutex).Lock(0x133d7398)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/mutex.go:134 +0x178
+sync.(*Once).Do(0x133d7398, 0x145ddcb4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/once.go:40 +0x40
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate(0x133d7360, 0x133382e0, 0x10, 0x2, 0x13324f00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:237 +0x64
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).dataset(0x13298e70, 0x1, 0x0, 0x145ddf40, 0xbff79a36, 0xbea36678)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:539 +0x504
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).mine(0x13298e70, 0x131a01e0, 0x1, 0x5628a510, 0x64dfde96, 0x14957940, 0x14957980)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:105 +0xd4
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal.func1(0x146614b0, 0x13298e70, 0x131a01e0, 0x14957940, 0x14957980, 0x1, 0x5628a510, 0x64dfde96)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:72 +0x70
+created by github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:70 +0x16c
+
+goroutine 244 [select]:
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal(0x13298e70, 0xefff58, 0x145c2000, 0x131a01e0, 0x14957900, 0xfa41171b, 0x6146c70b, 0xe8b3e72f)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:77 +0x240
+github.com/ethereum/go-ethereum/miner.(*CpuAgent).mine(0x13288d20, 0x1348a1e0, 0x14957900)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/agent.go:103 +0x50
+created by github.com/ethereum/go-ethereum/miner.(*CpuAgent).update
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/miner/agent.go:88 +0x38
+
+goroutine 247 [semacquire]:
+sync.runtime_SemacquireMutex(0x133d739c, 0x0)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/runtime/sema.go:71 +0x2c
+sync.(*Mutex).Lock(0x133d7398)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/mutex.go:134 +0x178
+sync.(*Once).Do(0x133d7398, 0x145e34b4)
+	/home/travis/.gimme/versions/go1.9.linux.amd64/src/sync/once.go:40 +0x40
+github.com/ethereum/go-ethereum/consensus/ethash.(*dataset).generate(0x133d7360, 0x133382e0, 0x10, 0x2, 0x13324f00)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:237 +0x64
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).dataset(0x13298e70, 0x1, 0x0, 0x145e3740, 0xbff79a36, 0xbea36678)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/ethash.go:539 +0x504
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).mine(0x13298e70, 0x131a01e0, 0x2, 0x976e19a4, 0x79b0c41c, 0x14957940, 0x14957980)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:105 +0xd4
+github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal.func1(0x146614b0, 0x13298e70, 0x131a01e0, 0x14957940, 0x14957980, 0x2, 0x976e19a4, 0x79b0c41c)
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:72 +0x70
+created by github.com/ethereum/go-ethereum/consensus/ethash.(*Ethash).Seal
+	/home/travis/gopath/src/github.com/ethereum/go-ethereum/consensus/ethash/sealer.go:70 +0x16c
