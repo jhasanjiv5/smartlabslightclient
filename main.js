@@ -5,7 +5,7 @@ if (typeof web3 !== 'undefined') {
   web3 = new Web3(web3.currentProvider);
 } else {
   // set the provider you want from Web3.providers
-  web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.1.144:8545"));
+  web3 = new Web3(new Web3.providers.HttpProvider("http://192.168.1.145:8545"));
   console.log("IPC:coneection established to account "+web3.eth.accounts);
 }
 
@@ -35,7 +35,7 @@ ttn.data(appID, accessKey)
       
 	
       myContract.save.sendTransaction("Switzerland","Zurich","PIMS",
-      payload.payload_fields.Carbondi,payload.payload_fields.Carbonmono,payload.payload_fields.Turbi,payload.payload_fields.PHvalue,
+      payload.payload_fields.Carbonmono,payload.payload_fields.Carbondi,payload.payload_fields.Turbi,payload.payload_fields.PHvalue,
       {from:web3.eth.accounts[0], gas:300000},function(err,res){
       console.log("transaction sent is:"+res); 
 	

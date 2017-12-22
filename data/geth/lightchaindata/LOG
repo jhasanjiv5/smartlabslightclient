@@ -292,3 +292,21 @@
 14:34:02.230164 table@remove removed @60
 15:16:40.782603 db@close closing
 15:16:40.783523 db@close done T·908.118µs
+=============== Dec 22, 2017 (CET) ===============
+13:09:15.898405 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:09:15.902527 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.03]
+13:09:15.902669 db@open opening
+13:09:15.903122 journal@recovery F·1
+13:09:15.949394 journal@recovery recovering @65
+13:09:15.994696 memdb@flush created L0@69 N·454 S·32KiB "\f\xd2\\..\xdc\xfeK,v51413":"\xff\v\xf9..\x91\x1e;,v51057"
+13:09:16.008262 version@stat F·[1 2] S·2MiB[32KiB 2MiB] Sc·[0.25 0.03]
+13:09:16.022631 db@janitor F·5 G·0
+13:09:16.022843 db@open done T·120.078984ms
+13:15:44.755769 table@compaction L0·1 -> L1·2 S·2MiB Q·51482
+13:15:45.916955 table@build created L1@72 N·33429 S·2MiB "\x00t'..\xf8w\x10,v44101":"h\x00\x00..8\xa0\xdf,v41740"
+13:15:46.164245 table@build created L1@73 N·5678 S·437KiB "h\x00\x00..\xa0\xdft,v41738":"\xff\xeb+..\xf6\xdcX,v43741"
+13:15:46.164660 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.03]
+13:15:46.168503 table@compaction committed F-1 S-2KiB Ke·0 D·70 T·1.412382889s
+13:15:46.168979 table@remove removed @69
+13:15:46.170774 table@remove removed @67
+13:15:46.171326 table@remove removed @68
