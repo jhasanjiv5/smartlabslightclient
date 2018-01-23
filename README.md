@@ -1,5 +1,5 @@
 # SmartLab's light client
-# Ethereum light client for smart labs
+# Ethereum light client for smart labs, a companion repository for Smart Labs repository (https://github.com/jhasanjiv5/smartlabs.git)
 # Once the Raspberry pi is ready  and working Clone the repository and 
 run the Mina.js file in case of the system running on LoRa gateway otherwise run app.js to connect to the BC.
 # Install the Geth Arm7 arch on the RPI and then go to the repository folder and then run the Geth using light cliient mode
